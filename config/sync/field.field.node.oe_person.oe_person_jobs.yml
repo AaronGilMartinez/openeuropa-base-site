@@ -1,0 +1,36 @@
+uuid: 9cd3a723-6e7f-4957-839c-63d56410ed34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_person_jobs
+    - node.type.oe_person
+    - oe_content_person.oe_person_job_type.oe_default
+  module:
+    - composite_reference
+    - entity_reference_revisions
+third_party_settings:
+  composite_reference:
+    composite: true
+_core:
+  default_config_hash: UqcUbLDFhx4YUnNVk0RWHU0X4eSz0LNeNnrZmkktkPQ
+id: node.oe_person.oe_person_jobs
+field_name: oe_person_jobs
+entity_type: node
+bundle: oe_person
+label: Jobs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:oe_person_job'
+  handler_settings:
+    target_bundles:
+      oe_default: oe_default
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference_revisions

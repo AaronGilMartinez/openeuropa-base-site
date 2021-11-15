@@ -1,0 +1,38 @@
+uuid: c1349585-ddf2-40de-b2c5-85ff59aed00e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.oe_demo_landing_page.field_oe_demo_body
+    - node.type.oe_demo_landing_page
+  module:
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: kj7vvanVrTKKDvLYq2w_CeoszXRfyDczQEzJKMky53A
+id: node.oe_demo_landing_page.default
+targetEntityType: node
+bundle: oe_demo_landing_page
+mode: default
+content:
+  field_oe_demo_body:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  oe_content_content_owner: true
+  oe_content_legacy_link: true
+  oe_content_navigation_title: true
+  oe_content_short_title: true
+  search_api_excerpt: true

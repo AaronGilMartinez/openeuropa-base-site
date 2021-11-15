@@ -1,0 +1,23 @@
+uuid: 2034e9ea-8d43-4890-b982-a2fa33d53b67
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_organisation
+_core:
+  default_config_hash: XFhGaBHrJXfC0Er9-qYCucVy_SwAvBNXv7ME9niqH_M
+id: oe_organisation.oe_acronym
+field_name: oe_acronym
+entity_type: oe_organisation
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

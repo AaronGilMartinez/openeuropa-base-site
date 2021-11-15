@@ -1,0 +1,10 @@
+uuid: 7d445364-1cc7-4841-91db-e81e56cbb840
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: B4jSIFXzqQn9rU30YJVADXISquXf_RpoOlOAK52Q-zs
+id: gallery
+label: 'Media Gallery'
+configurable_link_source_plugins: true
+default_link_source: null

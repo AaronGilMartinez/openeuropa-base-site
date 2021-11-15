@@ -1,0 +1,13 @@
+uuid: 3c85cc77-5bd1-44cd-ac38-c37899f81542
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _vm2d4r2KqLLR9GahezZyA92KyytFMKsqBiJ9hgAXpo
+name: 'Call for proposals'
+type: oe_call_proposals
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

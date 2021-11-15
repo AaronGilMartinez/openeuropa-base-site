@@ -1,0 +1,9 @@
+uuid: 20654625-941d-480f-aeee-10dcd0f3fd75
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: b3FdZ75F1aUj3QD5j49dgsaZUu192O5KsM8yGNFFKn4
+id: oe_organisation_reference
+label: Organisation
+description: 'Provides the Organisation reference contact type.'

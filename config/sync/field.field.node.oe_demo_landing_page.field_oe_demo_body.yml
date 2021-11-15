@@ -1,0 +1,129 @@
+uuid: b0c92284-3844-4aaf-854c-ff307e2302b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_oe_demo_body
+    - node.type.oe_demo_landing_page
+    - paragraphs.paragraphs_type.oe_accordion
+    - paragraphs.paragraphs_type.oe_banner
+    - paragraphs.paragraphs_type.oe_chart
+    - paragraphs.paragraphs_type.oe_contact
+    - paragraphs.paragraphs_type.oe_content_row
+    - paragraphs.paragraphs_type.oe_contextual_navigation
+    - paragraphs.paragraphs_type.oe_description_list
+    - paragraphs.paragraphs_type.oe_facts_figures
+    - paragraphs.paragraphs_type.oe_iframe_media
+    - paragraphs.paragraphs_type.oe_links_block
+    - paragraphs.paragraphs_type.oe_list_item
+    - paragraphs.paragraphs_type.oe_list_item_block
+    - paragraphs.paragraphs_type.oe_map
+    - paragraphs.paragraphs_type.oe_quote
+    - paragraphs.paragraphs_type.oe_rich_text
+    - paragraphs.paragraphs_type.oe_social_feed
+    - paragraphs.paragraphs_type.oe_social_media_follow
+    - paragraphs.paragraphs_type.oe_text_feature_media
+    - paragraphs.paragraphs_type.oe_timeline
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: 37ajHlTL8mFAoLrqYQ7xLJoiTuM0wyp8U0AVVo6K2SE
+id: node.oe_demo_landing_page.field_oe_demo_body
+field_name: field_oe_demo_body
+entity_type: node
+bundle: oe_demo_landing_page
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      oe_rich_text: oe_rich_text
+      oe_links_block: oe_links_block
+      oe_accordion: oe_accordion
+      oe_quote: oe_quote
+      oe_list_item: oe_list_item
+      oe_content_row: oe_content_row
+      oe_list_item_block: oe_list_item_block
+      oe_contextual_navigation: oe_contextual_navigation
+      oe_facts_figures: oe_facts_figures
+      oe_banner: oe_banner
+      oe_description_list: oe_description_list
+      oe_social_media_follow: oe_social_media_follow
+      oe_text_feature_media: oe_text_feature_media
+      oe_timeline: oe_timeline
+      oe_map: oe_map
+      oe_chart: oe_chart
+      oe_social_feed: oe_social_feed
+      oe_iframe_media: oe_iframe_media
+      oe_contact: oe_contact
+    target_bundles_drag_drop:
+      oe_accordion:
+        enabled: true
+        weight: 4
+      oe_accordion_item:
+        weight: 7
+        enabled: false
+      oe_banner:
+        enabled: true
+        weight: 15
+      oe_chart:
+        enabled: true
+        weight: 25
+      oe_content_row:
+        enabled: true
+        weight: 11
+      oe_contextual_navigation:
+        enabled: true
+        weight: 13
+      oe_description_list:
+        enabled: true
+        weight: 20
+      oe_fact:
+        weight: 22
+        enabled: false
+      oe_facts_figures:
+        enabled: true
+        weight: 14
+      oe_iframe_media:
+        enabled: true
+        weight: 30
+      oe_links_block:
+        enabled: true
+        weight: 3
+      oe_list_item:
+        enabled: true
+        weight: 10
+      oe_list_item_block:
+        enabled: true
+        weight: 12
+      oe_map:
+        enabled: true
+        weight: 25
+      oe_contact:
+        enabled: true
+        weight: 36
+      oe_quote:
+        enabled: true
+        weight: 9
+      oe_rich_text:
+        enabled: true
+        weight: 2
+      oe_social_feed:
+        enabled: true
+        weight: 29
+      oe_social_media_follow:
+        enabled: true
+        weight: 20
+      oe_text_feature_media:
+        enabled: true
+        weight: 21
+      oe_timeline:
+        enabled: true
+        weight: 24
+field_type: entity_reference_revisions

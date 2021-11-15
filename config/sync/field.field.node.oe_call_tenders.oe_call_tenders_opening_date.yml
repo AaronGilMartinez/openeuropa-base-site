@@ -1,0 +1,23 @@
+uuid: 20698533-45e7-4164-94e6-4f56e5ea4815
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_call_tenders_opening_date
+    - node.type.oe_call_tenders
+  module:
+    - datetime
+_core:
+  default_config_hash: rZiHp8zNrbsz5vBKEYrfgx33v00hzW9XaRUE5kWnGjs
+id: node.oe_call_tenders.oe_call_tenders_opening_date
+field_name: oe_call_tenders_opening_date
+entity_type: node
+bundle: oe_call_tenders
+label: 'Opening date'
+description: 'When does/did the call open for applications? E.g.: 20/02/2020'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

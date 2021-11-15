@@ -1,0 +1,32 @@
+uuid: f9fe00bb-e62a-49a5-9844-b1a3407b8ffb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.link_list_link.internal_media.media_target
+    - oe_link_lists_manual_source.link_list_link_type.internal_media
+_core:
+  default_config_hash: PY6kVe2KYT9spwdoKrNtmYGvmqsxWAtziks7ckuozKU
+id: link_list_link.internal_media.default
+targetEntityType: link_list_link
+bundle: internal_media
+mode: default
+content:
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  media_target:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

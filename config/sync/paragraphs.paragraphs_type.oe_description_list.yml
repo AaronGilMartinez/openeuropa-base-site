@@ -1,0 +1,12 @@
+uuid: f0af517d-7c08-48e5-bfd5-0b0555e377a1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c_6IMsbj_uVBOqZDMyY6QR5DrTRjlfsx4CsxYYoALpg
+id: oe_description_list
+label: 'Horizontal description list'
+icon_uuid: null
+icon_default: null
+description: 'Description List paragraph displays a list of several items grouped in an HTML Description list tag.'
+behavior_plugins: {  }

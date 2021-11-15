@@ -1,0 +1,35 @@
+uuid: 93379bcb-f9e2-4f8c-901f-c3c14bb248f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_person_interests_file
+    - media.type.document
+    - node.type.oe_person
+  module:
+    - composite_reference
+third_party_settings:
+  composite_reference:
+    composite: false
+_core:
+  default_config_hash: S9jlwbiXbvow0HyMzldL2eQC9dcr5S2risV7zLY-8LQ
+id: node.oe_person.oe_person_interests_file
+field_name: oe_person_interests_file
+entity_type: node
+bundle: oe_person
+label: 'Declaration of interests file'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

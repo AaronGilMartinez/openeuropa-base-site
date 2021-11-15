@@ -1,0 +1,13 @@
+uuid: a0cfb601-5253-4fff-b0fb-8bb37008d2cb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pjLmpeKhFmEYVuFebe21QzT4_3fA6_8jvoYFOsjBcY0
+name: 'OpenEuropa Media Demo'
+type: oe_media_demo
+description: 'A demo content type which shows available functionality of OE media module.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

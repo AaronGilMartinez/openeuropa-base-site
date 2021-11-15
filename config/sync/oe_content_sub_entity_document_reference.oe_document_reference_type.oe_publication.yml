@@ -1,0 +1,9 @@
+uuid: 8c68e394-b186-4468-999d-ff0543848e68
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1jwqqVNMnaDCf2_7LRncSSn-FBjV7onDTPfz6qP1Te0
+id: oe_publication
+label: Publication
+description: ''

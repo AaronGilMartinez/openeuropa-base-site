@@ -1,0 +1,11 @@
+uuid: bae31582-648c-45b0-bf64-934285532037
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qH_HlLV6Snbb5F8b5mIi_1vEW_xTofzQ85M0q-PXJb4
+id: other_social_media
+label: 'Custom Other social media'
+social_network: ''
+url: 'https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s'
+weight: -8

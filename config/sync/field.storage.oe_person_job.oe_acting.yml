@@ -1,0 +1,20 @@
+uuid: dabdb206-ad49-499b-b00c-250ee8f1d7d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_person
+_core:
+  default_config_hash: q2zyYxaMN96Tl_z51Aitvc8-JUHBIycnzQiBZ9ZHuzc
+id: oe_person_job.oe_acting
+field_name: oe_acting
+entity_type: oe_person_job
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

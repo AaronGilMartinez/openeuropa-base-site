@@ -1,0 +1,26 @@
+uuid: f6cec260-611d-49f1-88b8-ebe295a04bb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.link_list.gallery.oe_media_gallery_media
+    - oe_link_lists.link_list_type.gallery
+_core:
+  default_config_hash: cMXywK9afjFnySe9BDOZI4alFD0wXpfyRyBbEWX0w6U
+id: link_list.gallery.default
+targetEntityType: link_list
+bundle: gallery
+mode: default
+content:
+  oe_media_gallery_media:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

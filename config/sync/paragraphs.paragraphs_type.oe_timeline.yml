@@ -1,0 +1,12 @@
+uuid: 3f0b5282-5d7c-4e65-82d6-40f4c927637f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CoeMUJUOAvjlISXxW-2QB6gu7EbuxRrQHvSlwnWvuic
+id: oe_timeline
+label: Timeline
+icon_uuid: null
+icon_default: null
+description: 'The timeline paragraph displays concurrent and/or sequential items visually on a time axis.'
+behavior_plugins: {  }

@@ -1,0 +1,11 @@
+uuid: 61b908f8-a448-4a1e-bfb0-72a970d6929b
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  oe_link_lists_manual_source:
+    override: true
+_core:
+  default_config_hash: sSDa4bCXG78h4fSu5TNRfzXyFegM1Vo6F7cpf1UAfm4
+id: internal_media
+label: 'Internal media'

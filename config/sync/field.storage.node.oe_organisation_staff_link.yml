@@ -1,0 +1,21 @@
+uuid: 8c6365ee-15cf-4eb8-8dda-1eac34710750
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: '-uin1dTbr9NNeY0QUvES7uQMbySWHnIvrAb-L_4a8xY'
+id: node.oe_organisation_staff_link
+field_name: oe_organisation_staff_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,9 @@
+uuid: 2276d64d-00a5-42a7-8463-1da9db7cbe9d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sZEyEMRt0x4t5aGejL3iPGxAakA4IDQ9uER1l6prYng
+id: oe_corporate_body
+label: 'Corporate body'
+description: ''

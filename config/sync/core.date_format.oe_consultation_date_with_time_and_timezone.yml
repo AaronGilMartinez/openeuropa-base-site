@@ -1,0 +1,10 @@
+uuid: 1414744a-19b2-4b36-80a1-7a06ed5c6da4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ers2wgKTp5P26C8BozHDr9MhXxcSF8AX4NUfpMY8NrI
+id: oe_consultation_date_with_time_and_timezone
+label: 'Consultation date with time and timezone'
+locked: false
+pattern: 'd F Y, H:i (T)'

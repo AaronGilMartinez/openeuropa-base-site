@@ -1,0 +1,11 @@
+uuid: 56c76b39-86ec-4712-8f1b-1d61134800b6
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  oe_link_lists_manual_source:
+    override: false
+_core:
+  default_config_hash: diR5qA_Y9qoHj_WSydrKEW14SXBb9qTGqqNbuT-M4rc
+id: external
+label: External

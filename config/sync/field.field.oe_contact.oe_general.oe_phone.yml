@@ -1,0 +1,21 @@
+uuid: cdde6974-cf73-40c9-8907-7486c6160960
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_contact.oe_phone
+    - oe_content_entity_contact.oe_contact_type.oe_general
+_core:
+  default_config_hash: bY4nNbQj1GSxm2uErn6SUyfGcdMq3hUmWnvjlgiUcA4
+id: oe_contact.oe_general.oe_phone
+field_name: oe_phone
+entity_type: oe_contact
+bundle: oe_general
+label: 'Phone number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: eef3d12f-dc2f-40ef-b14f-a6db2f1e1473
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: ZRz09KuA4ocil6gnrFzoZPLWI_LMuuoHU5012LpSGSk
+id: node.oe_call_proposals_journal
+field_name: oe_call_proposals_journal
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

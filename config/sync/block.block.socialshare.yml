@@ -1,0 +1,22 @@
+uuid: 6e309133-c72d-40ad-9d48-4510d943bdc8
+langcode: en
+status: false
+dependencies:
+  module:
+    - oe_webtools_social_share
+  theme:
+    - bartik
+_core:
+  default_config_hash: mCL87-i2CwZDPlRtlNOzR3An_FqPGlTFoltDeNkZ0TQ
+id: socialshare
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: social_share
+settings:
+  id: social_share
+  label: 'Social Share'
+  provider: oe_webtools_social_share
+  label_display: '0'
+visibility: {  }

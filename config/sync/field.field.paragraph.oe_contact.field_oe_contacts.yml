@@ -1,0 +1,37 @@
+uuid: f03f8fc2-df33-47d4-ac8b-912cb08a553b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_contacts
+    - oe_content_entity_contact.oe_contact_type.oe_general
+    - oe_content_entity_contact.oe_contact_type.oe_press
+    - paragraphs.paragraphs_type.oe_contact
+  module:
+    - composite_reference
+third_party_settings:
+  composite_reference:
+    composite: true
+_core:
+  default_config_hash: 858EjRy6GbbPcbtAz-s3WXXn__Ma1Ge3g8MwjzaWlz8
+id: paragraph.oe_contact.field_oe_contacts
+field_name: field_oe_contacts
+entity_type: paragraph
+bundle: oe_contact
+label: Contacts
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:oe_contact'
+  handler_settings:
+    target_bundles:
+      oe_general: oe_general
+      oe_press: oe_press
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: oe_general
+field_type: entity_reference

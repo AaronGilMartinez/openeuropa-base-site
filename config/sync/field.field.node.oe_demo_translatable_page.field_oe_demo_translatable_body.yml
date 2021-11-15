@@ -1,0 +1,23 @@
+uuid: 1f6f1442-5c74-41bd-8455-b17dd1a8ddf6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_oe_demo_translatable_body
+    - node.type.oe_demo_translatable_page
+  module:
+    - text
+_core:
+  default_config_hash: eL3XP62QdjZrXGo54eizMK7yXH1b_sV5v9GzIePvOao
+id: node.oe_demo_translatable_page.field_oe_demo_translatable_body
+field_name: field_oe_demo_translatable_body
+entity_type: node
+bundle: oe_demo_translatable_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

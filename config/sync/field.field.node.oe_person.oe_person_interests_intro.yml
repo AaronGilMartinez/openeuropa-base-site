@@ -1,0 +1,23 @@
+uuid: 2ed39174-14d0-413f-8e1f-cce4d5c73aa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_person_interests_intro
+    - node.type.oe_person
+  module:
+    - text
+_core:
+  default_config_hash: j9yUCNfvrtKE-B_vSkubyZczgqY9447sk5TfNwayYUI
+id: node.oe_person.oe_person_interests_intro
+field_name: oe_person_interests_intro
+entity_type: node
+bundle: oe_person
+label: 'Declaration of interests introduction'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

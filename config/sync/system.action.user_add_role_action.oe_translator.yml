@@ -1,0 +1,14 @@
+uuid: 0cc1057e-6318-41e6-9d07-1b3022cce18b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.oe_translator
+  module:
+    - user
+id: user_add_role_action.oe_translator
+label: 'Add the Translate content role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: oe_translator

@@ -1,0 +1,23 @@
+uuid: 5ba6e71c-cc87-4c24-b68d-e1543cbf70fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_consultation_outcome
+    - node.type.oe_consultation
+  module:
+    - text
+_core:
+  default_config_hash: lR-WipCTKGEbpo3DV7bDGQ8tBZsr0zYrx0J0a8_2VnE
+id: node.oe_consultation.oe_consultation_outcome
+field_name: oe_consultation_outcome
+entity_type: node
+bundle: oe_consultation
+label: 'Consultation outcome'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

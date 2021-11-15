@@ -1,0 +1,21 @@
+uuid: 97fd1853-d75c-4748-bd71-bb05895ed63e
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - oe_media_js_asset
+_core:
+  default_config_hash: umY___gEYw3p7VA1_ed0kr0qsgmD61AJ6qTDwgop8-I
+id: media.oe_media_js_asset_url
+field_name: oe_media_js_asset_url
+entity_type: media
+type: oe_media_js_asset_url
+settings: {  }
+module: oe_media_js_asset
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

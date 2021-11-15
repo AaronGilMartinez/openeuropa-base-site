@@ -1,0 +1,22 @@
+uuid: 3dcb7656-c5ec-4326-a4cf-d407f78a812f
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: RyvTuLrvAFAc_1qTRDAfbcL-fvxWfrId1TN49aforN4
+id: node.oe_call_proposals_opening_date
+field_name: oe_call_proposals_opening_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

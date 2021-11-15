@@ -1,0 +1,23 @@
+uuid: b84f3081-ff81-4f96-b4e3-302df3694950
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_contact
+_core:
+  default_config_hash: maT4Ek4-yPYIUgvoVBIAiTwr9Y4sMo6VFGKoE_ZIMhg
+id: oe_contact.oe_mobile
+field_name: oe_mobile
+entity_type: oe_contact
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

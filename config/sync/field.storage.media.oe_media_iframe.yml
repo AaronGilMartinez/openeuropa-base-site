@@ -1,0 +1,21 @@
+uuid: c456d778-99b6-4a78-b1a2-d98c3ee16754
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: YqHdTdKsrPJNLbluyLYK8uK__znP-SyJbIX6nUUVIp4
+id: media.oe_media_iframe
+field_name: oe_media_iframe
+entity_type: media
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

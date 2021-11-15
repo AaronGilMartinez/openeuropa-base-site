@@ -1,0 +1,25 @@
+uuid: 005d1a5d-2f8d-4c76-9b1c-69bf62c8f390
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_related_links
+    - node.type.oe_news
+  module:
+    - link
+_core:
+  default_config_hash: Ge3anJHSZumN-bKRlPrr2VobTnVGcuk90XttS7MFSkg
+id: node.oe_news.oe_related_links
+field_name: oe_related_links
+entity_type: node
+bundle: oe_news
+label: 'Related links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

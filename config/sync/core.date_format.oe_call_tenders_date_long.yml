@@ -1,0 +1,10 @@
+uuid: 3b216376-8d13-46a2-8b81-6a731aca61bd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PTqtrgbQdqDBNv0zBwXmwUZ0FuywI8j6AteHUHIAcy0
+id: oe_call_tenders_date_long
+label: 'Call for tenders long date'
+locked: false
+pattern: 'd F Y'

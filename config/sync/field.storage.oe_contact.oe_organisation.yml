@@ -1,0 +1,23 @@
+uuid: 22927d92-61dc-4756-8321-f5bf199f41fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_contact
+_core:
+  default_config_hash: 9fHNCWxpONRCoW6uvAe5KwLAl8HyuzeHLyNiUemfvfg
+id: oe_contact.oe_organisation
+field_name: oe_organisation
+entity_type: oe_contact
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

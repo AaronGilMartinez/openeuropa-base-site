@@ -36,6 +36,12 @@ entity_types:
     -
       name: eu-programme
       uri: 'http://publications.europa.eu/resource/authority/eu-programme'
+    -
+      name: human-sex
+      uri: 'http://publications.europa.eu/resource/dataset/human-sex'
+    -
+      name: role-qualifier
+      uri: 'http://publications.europa.eu/resource/dataset/role-qualifier'
   skos_concept:
     -
       name: corporate_body
@@ -73,5 +79,11 @@ entity_types:
     -
       name: eu-programme
       uri: 'http://publications.europa.eu/resource/authority/eu-programme'
+    -
+      name: human-sex
+      uri: 'http://publications.europa.eu/resource/dataset/human-sex'
+    -
+      name: role-qualifier
+      uri: 'http://publications.europa.eu/resource/dataset/role-qualifier'
 _core:
   default_config_hash: YryWvx5nqC1-HW1XqoX04DyqK8oC_hjAqK3W9geI2EY

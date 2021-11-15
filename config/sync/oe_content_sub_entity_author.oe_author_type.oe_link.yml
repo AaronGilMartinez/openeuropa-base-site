@@ -1,0 +1,9 @@
+uuid: 8f16b4bf-1f30-4602-8426-83545a5e21b0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jleUEUbWqmf1E8wOdxebT-cSxCXEe5h71IY7cLlNkpY
+id: oe_link
+label: Link
+description: ''

@@ -1,0 +1,9 @@
+login_form:
+  title: 'Sign in to continue'
+  email: 'Username or e-mail address'
+  password: Password
+  submit: Login!
+users:
+  expire: 86400
+_core:
+  default_config_hash: cFYcUbOBnE1kFTRbcKkoZTKCSN-6sz6pKFH16PZ8gNA

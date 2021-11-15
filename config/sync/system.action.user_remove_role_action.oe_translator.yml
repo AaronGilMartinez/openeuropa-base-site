@@ -1,0 +1,14 @@
+uuid: 2e1cbb4e-f32e-49b2-98fa-aae2e55de4ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.oe_translator
+  module:
+    - user
+id: user_remove_role_action.oe_translator
+label: 'Remove the Translate content role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: oe_translator

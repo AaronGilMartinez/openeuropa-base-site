@@ -1,0 +1,11 @@
+uuid: 45590ad7-5c62-4f4e-bd68-bcd877937bb5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LUu9X3i3gn8TPVNt0uOS0MPzmWCCk-GuAUlYwFXkO8Q
+id: contact
+label: 'Custom Contact'
+url: 'https://ec.europa.eu/info/contact_en'
+section: contact_us
+weight: -10

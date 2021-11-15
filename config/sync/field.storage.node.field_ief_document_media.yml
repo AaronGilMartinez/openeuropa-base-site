@@ -1,0 +1,22 @@
+uuid: b18c8348-c6ba-49e5-a6c0-1dd5eaa8f8ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: mS6wmv_dAoVvIc4UhGGwiF5eVA3HmAVjqTb92Qundiw
+id: node.field_ief_document_media
+field_name: field_ief_document_media
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

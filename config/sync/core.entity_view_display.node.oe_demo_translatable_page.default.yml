@@ -1,0 +1,32 @@
+uuid: 045abbc9-f1ca-4d63-9d80-0fa56356a23e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.oe_demo_translatable_page.field_oe_demo_translatable_body
+    - node.type.oe_demo_translatable_page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 1PMaNZW-4RelCO66UZW6eOwiQlbxcUi43zKJ_IaXasU
+id: node.oe_demo_translatable_page.default
+targetEntityType: node
+bundle: oe_demo_translatable_page
+mode: default
+content:
+  field_oe_demo_translatable_body:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  links: true
+  oe_content_content_owner: true
+  oe_content_legacy_link: true
+  oe_content_navigation_title: true
+  oe_content_short_title: true
+  search_api_excerpt: true

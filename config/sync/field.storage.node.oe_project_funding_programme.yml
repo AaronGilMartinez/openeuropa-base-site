@@ -1,0 +1,22 @@
+uuid: 577dc252-0b8e-49e8-85fc-3a178539ee69
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - rdf_skos
+_core:
+  default_config_hash: E7mFOnx26K_n6jQ2ez7_0nqj5plx5wSEvupdm6SOgjo
+id: node.oe_project_funding_programme
+field_name: oe_project_funding_programme
+entity_type: node
+type: skos_concept_entity_reference
+settings:
+  target_type: skos_concept
+module: rdf_skos
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

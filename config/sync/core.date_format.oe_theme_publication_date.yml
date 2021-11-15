@@ -1,0 +1,10 @@
+uuid: 46f5c52d-3c49-4134-a6bc-0d5c2f64f491
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: iwpXoOD7ieBJvsUBejaEHZZyOuewIHJXlZncrVki8lM
+id: oe_theme_publication_date
+label: 'Publication date'
+locked: false
+pattern: 'j F Y'

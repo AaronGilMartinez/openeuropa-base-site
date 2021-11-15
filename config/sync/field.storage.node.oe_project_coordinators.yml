@@ -1,0 +1,23 @@
+uuid: 5ddb3fea-7e03-4ca3-b654-1abc5c17f4b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - oe_content_entity_organisation
+_core:
+  default_config_hash: LClPEp8PKnKiuvKU1dx9LtvbNugji4ZAuC9QauRa53Q
+id: node.oe_project_coordinators
+field_name: oe_project_coordinators
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: oe_organisation
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

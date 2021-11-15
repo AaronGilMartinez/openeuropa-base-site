@@ -1,0 +1,12 @@
+uuid: 9b865a06-d560-4216-8d52-33954ea1926e
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_organisation
+_core:
+  default_config_hash: r3XuvZgndJ2c9d3O14C839Hz8vQgGQl5Zldbu--Avwc
+id: oe_organisation.full
+label: Full
+targetEntityType: oe_organisation
+cache: true

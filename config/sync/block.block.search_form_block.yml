@@ -1,0 +1,22 @@
+uuid: 71d8a0ce-6864-4b23-b586-2f5292fdec0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_search
+  theme:
+    - bartik
+_core:
+  default_config_hash: 7o3CO7QVZxXk3VF_A3_JUnEhpmtuWy0q9_QCev2m7S8
+id: search_form_block
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: oe_search
+settings:
+  id: oe_search
+  label: 'OpenEuropa Search block'
+  provider: oe_search
+  label_display: visible
+visibility: {  }

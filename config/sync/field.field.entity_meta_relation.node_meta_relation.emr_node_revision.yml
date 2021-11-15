@@ -5,6 +5,7 @@ dependencies:
   config:
     - emr.entity_meta_relation_type.node_meta_relation
     - field.storage.entity_meta_relation.emr_node_revision
+    - node.type.oe_list_page
   module:
     - entity_reference_revisions
 _core:
@@ -26,4 +27,6 @@ settings:
       field: _none
     auto_create: false
     auto_create_bundle: ''
+    target_bundles:
+      - oe_list_page
 field_type: entity_reference_revisions

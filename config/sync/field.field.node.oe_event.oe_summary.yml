@@ -1,0 +1,23 @@
+uuid: d8f0f054-6d90-449f-8579-fc05a4730b78
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_summary
+    - node.type.oe_event
+  module:
+    - text
+_core:
+  default_config_hash: ase7LKYI0AY9BREGeRB9wJG7wU5AtR1bIoI7qFgQe1Q
+id: node.oe_event.oe_summary
+field_name: oe_summary
+entity_type: node
+bundle: oe_event
+label: Introduction
+description: 'A short text that will be displayed below the page title. This should be a brief summary of the content on the page that tells the user what information they will find on this page.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

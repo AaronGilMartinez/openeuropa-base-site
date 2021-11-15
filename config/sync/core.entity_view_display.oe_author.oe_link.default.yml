@@ -1,0 +1,30 @@
+uuid: e19c9ebe-3608-4714-b815-7be057d6684e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.oe_author.oe_link.oe_link
+    - oe_content_sub_entity_author.oe_author_type.oe_link
+  module:
+    - link
+_core:
+  default_config_hash: iXzTeON9zHtMlpaht4-O7iY0IpHU8aX17C6PoBsM3MI
+id: oe_author.oe_link.default
+targetEntityType: oe_author
+bundle: oe_link
+mode: default
+content:
+  oe_link:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  search_api_excerpt: true

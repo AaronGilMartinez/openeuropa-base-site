@@ -1,0 +1,35 @@
+uuid: 700b6e3c-0e19-43cd-b9f3-0d7644940bab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_contact.oe_node_reference
+    - node.type.oe_organisation
+    - oe_content_entity_contact.oe_contact_type.oe_organisation_reference
+  module:
+    - composite_reference
+third_party_settings:
+  composite_reference:
+    composite: false
+_core:
+  default_config_hash: G90tTO8Lrf9Xv9HrU25bFhSMrLizYjJMG36epWO7o8k
+id: oe_contact.oe_organisation_reference.oe_node_reference
+field_name: oe_node_reference
+entity_type: oe_contact
+bundle: oe_organisation_reference
+label: Organisation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      oe_organisation: oe_organisation
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

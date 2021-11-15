@@ -1,0 +1,13 @@
+uuid: c886ad8a-3eef-44a6-b8eb-d8ec85a11133
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BFT-1q8dlcvKCOLfpzz0A5FFTFrkFspCJXhT5bwPm8Q
+name: Consultation
+type: oe_consultation
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,35 @@
+uuid: 28ef2393-c539-48f1-81e4-83337d6461f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_document_reference.oe_document
+    - media.type.document
+    - oe_content_sub_entity_document_reference.oe_document_reference_type.oe_document
+  module:
+    - composite_reference
+third_party_settings:
+  composite_reference:
+    composite: false
+_core:
+  default_config_hash: NJNpXgJilxZjMuFw-b62PFRDRHWzVtdVrVjc3jHE654
+id: oe_document_reference.oe_document.oe_document
+field_name: oe_document
+entity_type: oe_document_reference
+bundle: oe_document
+label: Document
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

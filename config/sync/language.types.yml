@@ -15,16 +15,18 @@ negotiation:
       language-selected: 20
   language_url:
     enabled:
-      language-url: 0
+      oe-multilingual-url-suffix-negotiation-method: 0
       language-url-fallback: 1
   language_interface:
     enabled:
       language-admin: -20
       language-url: -19
+      language-selection-page: -18
       language-selected: 20
     method_weights:
       language-admin: -20
       language-url: -19
+      language-selection-page: -18
       language-selected: 20
 _core:
   default_config_hash: dqouFqVseNJNvEjsoYKxbinFOITuCxYhi4y2OTNQP_8

@@ -1,0 +1,25 @@
+uuid: decb13a3-cf8a-44eb-824a-186ae89595cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_organisation_staff_link
+    - node.type.oe_organisation
+  module:
+    - link
+_core:
+  default_config_hash: tQFVgHOpxIW1qltWcQjkboEPxC9aZ3-sfuCaCm2vXjs
+id: node.oe_organisation.oe_organisation_staff_link
+field_name: oe_organisation_staff_link
+entity_type: node
+bundle: oe_organisation
+label: 'Staff search link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

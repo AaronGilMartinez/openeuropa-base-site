@@ -1,0 +1,22 @@
+uuid: 580ae41a-1ac3-4d5d-8006-bfd2d6dbbae8
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: d6G8B29Xz9mGn6nmhREO1WknREXnPhB2JGnIQTqHtbo
+id: node.field_oe_demo_remote_video_media
+field_name: field_oe_demo_remote_video_media
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

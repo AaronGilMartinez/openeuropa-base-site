@@ -1,0 +1,21 @@
+uuid: a8a62101-ce8c-408c-95f9-ad035c82e051
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bmQ15C_iijzm_AH2nYPlGDl5KiKWRF-h_taY60iOWUk
+id: node.oe_persons
+field_name: oe_persons
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

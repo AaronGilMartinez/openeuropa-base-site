@@ -1,0 +1,18 @@
+uuid: b5ed1f65-9cc6-4f0b-87b1-8a28492ebece
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_tenders
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+_core:
+  default_config_hash: UrL-hgrfcUzSmSiTf_oGAB68iIjgMsAYu2FVVqMkWrc
+id: node.oe_call_tenders
+target_entity_type_id: node
+target_bundle: oe_call_tenders
+default_langcode: site_default
+language_alterable: true

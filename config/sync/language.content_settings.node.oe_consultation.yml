@@ -1,0 +1,18 @@
+uuid: 04803dc6-ce4d-4011-a8f4-5060f9ae80af
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_consultation
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+_core:
+  default_config_hash: 4_Mf_yj-ymrF7DjdoSHCpnDxOXUTXzSHOOWor2Yld7w
+id: node.oe_consultation
+target_entity_type_id: node
+target_bundle: oe_consultation
+default_langcode: site_default
+language_alterable: true

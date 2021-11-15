@@ -1,0 +1,9 @@
+uuid: 767b4d77-9fea-4677-ac03-4d5757b42bfa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vWuB9Qw6WweE5gcIuUIt-y1-fXFeyI-Hc5st2U_UmiY
+id: oe_document
+label: Document
+description: ''

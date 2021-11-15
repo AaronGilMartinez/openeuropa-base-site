@@ -1,0 +1,10 @@
+uuid: 88785d52-b708-4ed1-ac46-d9e81ed31f20
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yplmgTclmD6JnFS5h_U502JHWmqw-lWneGcT1CI2G7s
+id: oe_project_date
+label: 'Project period'
+locked: false
+pattern: d.m.Y

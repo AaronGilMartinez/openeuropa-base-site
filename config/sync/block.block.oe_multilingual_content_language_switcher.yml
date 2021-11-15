@@ -1,0 +1,22 @@
+uuid: 6a18687f-f886-40da-806e-1135e988cf10
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+  theme:
+    - bartik
+_core:
+  default_config_hash: qS4nhfQXIrBRo9vkpfMyLrnQDKe0RAzgEe303TMQZU0
+id: oe_multilingual_content_language_switcher
+theme: bartik
+region: content
+weight: 1
+provider: null
+plugin: oe_multilingual_content_language_switcher
+settings:
+  id: oe_multilingual_content_language_switcher
+  label: 'OpenEuropa Content Language Switcher'
+  provider: oe_multilingual
+  label_display: '0'
+visibility: {  }

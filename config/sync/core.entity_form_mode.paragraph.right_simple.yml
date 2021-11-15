@@ -1,0 +1,12 @@
+uuid: 7e094f76-4926-41c5-a936-3e0c3911d569
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: vfsQQ1GmgnwvlhScXbN41vgPiY0Wg6MI-4eu_dKeBjw
+id: paragraph.right_simple
+label: 'Text on the right, simple call to action'
+targetEntityType: paragraph
+cache: true

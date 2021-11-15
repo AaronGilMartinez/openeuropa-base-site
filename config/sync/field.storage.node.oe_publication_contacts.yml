@@ -1,0 +1,23 @@
+uuid: 3af05686-dd17-4dd8-b9c1-6723fa9d28e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - oe_content_entity_contact
+_core:
+  default_config_hash: VP4DTRnx260b5Z6yXuid1mvqR6ybVWjzxbXnKkCrCKA
+id: node.oe_publication_contacts
+field_name: oe_publication_contacts
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: oe_contact
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

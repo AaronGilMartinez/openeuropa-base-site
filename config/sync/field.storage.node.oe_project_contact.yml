@@ -1,0 +1,23 @@
+uuid: 6e8e9a33-6c4f-40e9-aef5-1a6722462aaf
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - oe_content_entity_contact
+_core:
+  default_config_hash: 5ZjSt_CRAldiMq9321UoCUebna8uC_d6hLX0UBD0i60
+id: node.oe_project_contact
+field_name: oe_project_contact
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: oe_contact
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

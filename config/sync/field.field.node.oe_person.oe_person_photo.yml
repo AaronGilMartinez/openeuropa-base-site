@@ -1,0 +1,37 @@
+uuid: 5c55e291-6da4-4f68-866f-21379f6d00a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_person_photo
+    - media.type.av_portal_photo
+    - media.type.image
+    - node.type.oe_person
+  module:
+    - composite_reference
+third_party_settings:
+  composite_reference:
+    composite: false
+_core:
+  default_config_hash: mraIiA6YQBX75qYe0D9AB7cIRqiCzjxnBmi3PFyOrYk
+id: node.oe_person.oe_person_photo
+field_name: oe_person_photo
+entity_type: node
+bundle: oe_person
+label: 'Portrait photo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      av_portal_photo: av_portal_photo
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

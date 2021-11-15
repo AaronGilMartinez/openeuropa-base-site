@@ -1,5 +1,5 @@
 title: 'Language selection'
-path: /language_selection_page
+path: /select-language
 type: standalone
 blacklisted_paths:
   - /admin
@@ -8,7 +8,9 @@ blacklisted_paths:
   - '/admin*'
   - '/node/add/*'
   - '/node/*/edit'
-  - /node
+  - '/sites/*/files/*'
+  - /system/files
+  - '/system/files/*'
 ignore_neutral: false
 _core:
   default_config_hash: MB_3lZvDBxP3cF4ZkBMK8beAg6HAfzsSC0Aw1WTnBMg

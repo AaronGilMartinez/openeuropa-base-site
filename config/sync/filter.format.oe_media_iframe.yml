@@ -1,0 +1,27 @@
+uuid: c42794e2-6210-4cc2-9b76-5f6218c4641d
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_media_iframe
+_core:
+  default_config_hash: B7TGo_nfYrdrWRr-f8GAMFtJTxLpP3GoJhQJQQgM_Cg
+name: 'Iframe media'
+format: oe_media_iframe
+weight: 11
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<iframe allowfullscreen height importance loading referrerpolicy sandbox src width mozallowfullscreen webkitAllowFullScreen scrolling frameborder>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_iframe_tag:
+    id: filter_iframe_tag
+    provider: oe_media_iframe
+    status: true
+    weight: 0
+    settings: {  }

@@ -1,0 +1,22 @@
+uuid: 4ee05af3-d54e-4543-82a5-ed990a7fb584
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: S3j8P9I8REyrZ6VOLVC3gERXVubjV7zVzmJWQsAtt74
+id: node.oe_organisation_logo
+field_name: oe_organisation_logo
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

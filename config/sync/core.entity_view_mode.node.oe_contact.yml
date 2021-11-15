@@ -1,0 +1,12 @@
+uuid: 5e964de5-8bd0-4124-bd3d-b6b441543597
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: jUwRi2m3CpZvNJTmzAdJPhKsmdf2mV1kAoH6WQ4hD-k
+id: node.oe_contact
+label: Contact
+targetEntityType: node
+cache: true

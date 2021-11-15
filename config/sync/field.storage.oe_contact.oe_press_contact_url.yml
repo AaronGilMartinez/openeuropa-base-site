@@ -1,0 +1,21 @@
+uuid: 4103465d-976e-4856-ad79-543a255e2e67
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - oe_content_entity_contact
+_core:
+  default_config_hash: Gca-s7RCx-t5mqaD8l2TFLxfOW3UDWSSlX3MBatOEvA
+id: oe_contact.oe_press_contact_url
+field_name: oe_press_contact_url
+entity_type: oe_contact
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

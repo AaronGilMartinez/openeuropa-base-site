@@ -1,0 +1,25 @@
+uuid: 082d75d7-249b-4d18-a11b-6cb2a7140b30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_project_budget_eu
+    - node.type.oe_project
+_core:
+  default_config_hash: B-43OmRkMRKCtnppR7Q9LHYELil9Vc-IglqF24lVTrM
+id: node.oe_project.oe_project_budget_eu
+field_name: oe_project_budget_eu
+entity_type: node
+bundle: oe_project
+label: 'EU contribution'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: €
+  suffix: ''
+field_type: float

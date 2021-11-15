@@ -1,0 +1,28 @@
+uuid: b18d8d50-8678-4ad9-aec1-f7e24ab46ec5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.oe_document_reference.oe_publication.oe_publication
+    - oe_content_sub_entity_document_reference.oe_document_reference_type.oe_publication
+_core:
+  default_config_hash: DZFi5FfZ5z9_l3M1tzh--9ca7qLwGgzLYQ20Ij4PxUM
+id: oe_document_reference.oe_publication.default
+targetEntityType: oe_document_reference
+bundle: oe_publication
+mode: default
+content:
+  oe_publication:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  status: true

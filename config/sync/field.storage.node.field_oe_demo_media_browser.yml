@@ -1,0 +1,22 @@
+uuid: dceb9bca-6cf1-4262-9ef4-4930e9d472c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: vCcUCDlRXJeD1z-IEGZN89fybbdD_M5FvQ9Rk6LmsS0
+id: node.field_oe_demo_media_browser
+field_name: field_oe_demo_media_browser
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

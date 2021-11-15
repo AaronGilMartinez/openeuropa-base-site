@@ -10,4 +10,6 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'access patterns page'
   - 'view media'
+  - 'view style guides'

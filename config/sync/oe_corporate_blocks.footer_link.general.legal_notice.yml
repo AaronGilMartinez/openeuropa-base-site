@@ -1,0 +1,11 @@
+uuid: ca7c705e-6651-410f-b927-64060d930c59
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: e5gcBDgrOpth0kvFVpwXr6htvJlYvUXXMuxRTV_hdeo
+id: legal_notice
+label: 'Custom Legal notice'
+url: 'https://ec.europa.eu/info/legal-notice_en'
+section: about_us
+weight: -10

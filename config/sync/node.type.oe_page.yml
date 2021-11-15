@@ -1,0 +1,13 @@
+uuid: adf05ba6-f14e-44b5-9a78-f2a800dcbb6f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q-2Pj2Nulc9oWoxhUWXEtMIaDYTgqJr1KhTk4ErCoq8
+name: Page
+type: oe_page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

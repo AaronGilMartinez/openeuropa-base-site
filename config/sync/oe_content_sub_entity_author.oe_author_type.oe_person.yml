@@ -1,0 +1,9 @@
+uuid: f1212bb1-5eee-4eaa-bfca-759200b1f3af
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AdSPokljKLks0lFmRecklsx1V08SaujsXXT2I_0_XUY
+id: oe_person
+label: Person
+description: ''

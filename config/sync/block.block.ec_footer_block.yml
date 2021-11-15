@@ -1,0 +1,22 @@
+uuid: b682bdae-65bc-43c5-8138-9084ec7c3d13
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_corporate_blocks
+  theme:
+    - bartik
+_core:
+  default_config_hash: DTS9Px31jrV-OeYgutsnaS1Jr1OmGP1qlicJzJRcd1M
+id: ec_footer_block
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: oe_corporate_blocks_ec_footer
+settings:
+  id: oe_corporate_blocks_ec_footer
+  label: 'European Commission demo footer block'
+  provider: oe_corporate_blocks
+  label_display: '0'
+visibility: {  }

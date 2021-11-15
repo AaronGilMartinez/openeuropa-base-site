@@ -1,0 +1,12 @@
+uuid: 397efcb8-2c4f-424d-9457-ad033fe137b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: n3j0MPYgvFCG33s4dcrZ2vuzYeIJyKjkuTGXDSGyq6o
+id: node.oe_compact_teaser
+label: 'OpenEuropa: Compact teaser'
+targetEntityType: node
+cache: true

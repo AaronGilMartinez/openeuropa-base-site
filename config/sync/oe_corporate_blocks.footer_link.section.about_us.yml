@@ -1,0 +1,9 @@
+uuid: 6527a7ec-82cb-476c-a461-2da895828d36
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-j4fRBdUGCtenBagnrz6EV6SkOU1chalB3nrLzluq3c'
+id: about_us
+label: 'About us'
+weight: -9

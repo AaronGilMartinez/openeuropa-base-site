@@ -1,0 +1,16 @@
+uuid: 6546d8f4-0ebf-42ea-8756-904c09a55a2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: KMYIHoKxO1n0jU6_4VjbZIDrqQ8okUYsTOgPNzubh4o
+id: de
+label: German
+direction: ltr
+weight: 4
+locked: false

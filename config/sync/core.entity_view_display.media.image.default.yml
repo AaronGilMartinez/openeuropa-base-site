@@ -1,0 +1,32 @@
+uuid: 696ff307-cc71-4682-98dc-3b252660326b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.image.oe_media_image
+    - media.type.image
+  module:
+    - image
+_core:
+  default_config_hash: Io7rEAP7BEHAdpaOQIYMsl7N7Cpqh8MHlFFOf-jQbfI
+id: media.image.default
+targetEntityType: media
+bundle: image
+mode: default
+content:
+  oe_media_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,16 @@
+uuid: d30f0600-b39f-4941-95da-216c44542195
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: _WHUXRWReN3MjPWuIgpr9F5PjnI9VifArxaTN_1YrrA
+id: mt
+label: Maltese
+direction: ltr
+weight: 15
+locked: false

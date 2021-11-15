@@ -1,0 +1,16 @@
+uuid: c9a572ea-6945-4cef-87c4-fc3c530a8a9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: PmgD7t3WFK4pwncw9KeqFOTOk8hFqEkReiicR3pVplY
+id: fi
+label: Finnish
+direction: ltr
+weight: 22
+locked: false

@@ -1,0 +1,16 @@
+uuid: 2bbb37fe-c8d0-4a68-91f0-3e2aefdfb45e
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: sCEjjz5FmSAeQww3UOk0qiF44AaC9knCU9aFQrz8azg
+id: pl
+label: Polish
+direction: ltr
+weight: 17
+locked: false

@@ -1,0 +1,8 @@
+uuid: 4dc2daa1-3278-4b69-93e2-1f142d2c04bd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: l8nswUJF8bbo7PKIM_HwPl_agFDQmj3-j4CkPOynxxg
+id: node_meta_relation
+label: 'Entity Meta Relation bundle to be used for connecting Entity Metas with the Node entity type'

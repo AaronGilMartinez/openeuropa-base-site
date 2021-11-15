@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "790759c8e8e1437b89ef4041f2b45f37",
+    "content-hash": "970a4fdfe28e62ec8487bd7da366743a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2354,6 +2354,7 @@
                     }
                 },
                 "patches_applied": {
+                    "3051453: Call to a member function setSyncing() on null when installing a module": "https://www.drupal.org/files/issues/2020-08-18/protect_against_invalid_ids_in_import_delete-3051453-10.patch",
                     "Entity display entities are incorrectly unserialized @see https://www.drupal.org/project/drupal/issues/3171333": "https://www.drupal.org/files/issues/2020-09-17/3171333-6.patch"
                 }
             },

@@ -1,0 +1,93 @@
+{
+    "name": "digit/subsite",
+    "description": "Drupal 8 template for websites hosted in DIGIT.",
+    "type": "project",
+    "license": "EUPL-1.2",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.3",
+        "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.6",
+        "drupal/core": "^9.2",
+        "drupal/core-composer-scaffold": "^9.2",
+        "drush/drush": "^10.0",
+        "openeuropa/oe_profile": "dev-master",
+        "webflo/drupal-finder": "^1.0",
+        "webmozart/path-util": "^2.3"
+    },
+    "require-dev": {
+        "drupal/core-dev": "^9.2",
+        "drupal/drupal-driver": "2.1.1",
+        "drupal/drupal-extension": "~4.0",
+        "ec-europa/toolkit": "^8.2"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "Subsite\\composer\\SetupWizard::setup"
+        ],
+        "post-install-cmd": [
+            "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+        ]
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "extra": {
+        "drupal-scaffold": {
+            "allowed-packages": [
+                "drupal/core"
+            ],
+            "locations": {
+              "web-root": "./web"
+            }
+        },
+        "composer-exit-on-patch-failure": true,
+        "enable-patching": true,
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "scripts/composer/SetupWizard.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OpenEuropa\\Site\\Tests\\": "./tests/"
+        }
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

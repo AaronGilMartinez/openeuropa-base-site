@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "970a4fdfe28e62ec8487bd7da366743a",
+    "content-hash": "d6d155ec0d682f312a0e705b7ac0f937",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1861,6 +1861,55 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/cas_mock_server",
                 "issues": "https://www.drupal.org/project/issues/cas_mock_server"
+            }
+        },
+        {
+            "name": "drupal/components",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/components.git",
+                "reference": "8.x-2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/components-8.x-2.4.zip",
+                "reference": "8.x-2.4",
+                "shasum": "9b083c2f845ff2e1a1632efcf24f88cecd7479cc"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.4",
+                    "datestamp": "1618861606",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095",
+                    "email": "virtually.johnalbin@gmail.com"
+                },
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                }
+            ],
+            "description": "Registers folders of components defined by your theme or module as Twig namespaces",
+            "homepage": "https://drupal.org/project/components",
+            "support": {
+                "source": "https://git.drupalcode.org/project/components"
             }
         },
         {
@@ -5238,6 +5287,9 @@
                     "build/themes/contrib/{$name}": [
                         "type:drupal-theme"
                     ]
+                },
+                "patches_applied": {
+                    "Fix unable to detect a pattern from default theme having same id as the pattern in the base theme @see https://github.com/nuvoleweb/ui_patterns/issues/304": "https://patch-diff.githubusercontent.com/raw/nuvoleweb/ui_patterns/pull/318.diff"
                 }
             },
             "autoload": {
@@ -5286,6 +5338,115 @@
             ],
             "support": {
                 "source": "https://git.drupalcode.org/project/ui_patterns"
+            }
+        },
+        {
+            "name": "drupal/ui_patterns_settings",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ui_patterns_settings.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ui_patterns_settings-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "153d1022b11479ea0f2d04e8d951823516a997af"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/token": "*",
+                "drupal/ui_patterns": "*"
+            },
+            "require-dev": {
+                "composer/installers": "^1.2",
+                "cweagans/composer-patches": "~1.4",
+                "drupal/config_devel": "~1",
+                "drupal/core-composer-scaffold": "^8.0",
+                "drupal/core-dev": "^8.0",
+                "drupal/core-recommended": "~9.0",
+                "drupal/ds": "~3",
+                "drupal/field_group": "~3",
+                "drupal/page_manager": "*",
+                "drupal/panels": "~4",
+                "drupal/paragraphs": "~1",
+                "drupal/token": "~1",
+                "drupal/ui_patterns": "~1.2",
+                "drush/drush": "~10",
+                "openeuropa/task-runner": "~1.0-beta3",
+                "phpro/grumphp": "~0.14"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1600672196",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "enable-patching": true,
+                "composer-exit-on-patch-failure": true,
+                "drupal-scaffold": {
+                    "locations": {
+                        "web-root": "build/"
+                    }
+                },
+                "installer-paths": {
+                    "build/core": [
+                        "type:drupal-core"
+                    ],
+                    "build/modules/contrib/{$name}": [
+                        "type:drupal-module"
+                    ],
+                    "build/profiles/contrib/{$name}": [
+                        "type:drupal-profile"
+                    ],
+                    "build/themes/contrib/{$name}": [
+                        "type:drupal-theme"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\ui_patterns_settings_settings\\": "./src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Drupal\\Tests\\ui_patterns_settings_settings\\": "./tests/src"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "scripts": {
+                "post-install-cmd": [
+                    "./vendor/bin/run drupal:site-setup"
+                ],
+                "post-update-cmd": [
+                    "./vendor/bin/run drupal:site-setup"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Wiedemann",
+                    "homepage": "https://www.drupal.org/user/861002",
+                    "email": "christian.wiedemann@key-tec.de"
+                }
+            ],
+            "description": "UI Patterns Settings.",
+            "homepage": "https://www.drupal.org/project/ui_patterns_settings",
+            "keywords": [
+                "drupal",
+                "ui",
+                "web"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/ui_patterns_settings"
             }
         },
         {
@@ -6880,6 +7041,96 @@
             "time": "2021-09-27T11:54:49+00:00"
         },
         {
+            "name": "openeuropa/oe_bootstrap_theme",
+            "version": "0.261020211605",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/oe_bootstrap_theme.git",
+                "reference": "9eb7b3b0f26e2ac31af26472e5243a3b50e45332"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openeuropa/oe_bootstrap_theme/zipball/9eb7b3b0f26e2ac31af26472e5243a3b50e45332",
+                "reference": "9eb7b3b0f26e2ac31af26472e5243a3b50e45332",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/components": "^2.4",
+                "drupal/core": "^8.9 || ^9.1",
+                "drupal/ui_patterns": "^1.0",
+                "drupal/ui_patterns_settings": "^1.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "composer/installers": "^1.11",
+                "drupal/config_devel": "~1.2",
+                "drupal/core-composer-scaffold": "^8.9 || ^9.1",
+                "drupal/drupal-extension": "^4.1",
+                "drupal/styleguide": "^1.0@alpha",
+                "drush/drush": "^10.3",
+                "openeuropa/code-review": "~1.6",
+                "openeuropa/drupal-core-require-dev": "^8.9 || ^9.1",
+                "openeuropa/task-runner-drupal-project-symlink": "^1.0",
+                "phpspec/prophecy-phpunit": "^1 || ^2"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "composer-exit-on-patch-failure": true,
+                "enable-patching": true,
+                "installer-paths": {
+                    "build/core": [
+                        "type:drupal-core"
+                    ],
+                    "build/profiles/contrib/{$name}": [
+                        "type:drupal-profile"
+                    ],
+                    "build/modules/contrib/{$name}": [
+                        "type:drupal-module"
+                    ],
+                    "build/themes/contrib/{$name}": [
+                        "type:drupal-theme"
+                    ]
+                },
+                "drupal-scaffold": {
+                    "locations": {
+                        "web-root": "./build"
+                    }
+                },
+                "patches": {
+                    "drupal/ui_patterns": {
+                        "Fix unable to detect a pattern from default theme having same id as the pattern in the base theme @see https://github.com/nuvoleweb/ui_patterns/issues/304": "https://patch-diff.githubusercontent.com/raw/nuvoleweb/ui_patterns/pull/318.diff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\oe_bootstrap_theme\\": "./src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Drupal\\Tests\\oe_bootstrap_theme\\": "./tests/"
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "./vendor/bin/run drupal:site-setup"
+                ],
+                "post-update-cmd": [
+                    "./vendor/bin/run drupal:site-setup"
+                ]
+            },
+            "license": [
+                "EUPL-1.2"
+            ],
+            "description": "OpenEuropa Bootstrap base theme.",
+            "support": {
+                "source": "https://github.com/openeuropa/oe_bootstrap_theme/tree/0.261020211605",
+                "issues": "https://github.com/openeuropa/oe_bootstrap_theme/issues"
+            },
+            "time": "2021-10-25T10:11:32+00:00"
+        },
+        {
             "name": "openeuropa/oe_contact_forms",
             "version": "1.1.1",
             "source": {
@@ -8305,6 +8556,97 @@
             ],
             "description": "OpenEuropa Webtools integration.",
             "time": "2021-11-02T14:18:13+00:00"
+        },
+        {
+            "name": "openeuropa/oe_whitelabel",
+            "version": "261020211815",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/oe_whitelabel.git",
+                "reference": "46365727c9e44bfd987bf3bec26556671b60d59e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openeuropa/oe_whitelabel/zipball/46365727c9e44bfd987bf3bec26556671b60d59e",
+                "reference": "46365727c9e44bfd987bf3bec26556671b60d59e",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/components": "^2.4",
+                "drupal/core": "^8.9 || ^9.1",
+                "drupal/ui_patterns": "^1.0",
+                "drupal/ui_patterns_settings": "^1.0",
+                "openeuropa/oe_bootstrap_theme": "0.261020211605",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "composer/installers": "^1.11",
+                "drupal/better_exposed_filters": "^5.0@beta",
+                "drupal/config_devel": "~1.2",
+                "drupal/core-composer-scaffold": "^8.9 || ^9.1",
+                "drupal/drupal-extension": "~4.1",
+                "drupal/search_api": "^1.20",
+                "drupal/search_api_autocomplete": "^1.5",
+                "drush/drush": "^10.3",
+                "easyrdf/easyrdf": "1.0.0 as 0.9.1",
+                "openeuropa/code-review": "1.6",
+                "openeuropa/composer-artifacts": "~0.1",
+                "openeuropa/drupal-core-require-dev": "^8.9 || ^9.1",
+                "openeuropa/oe_authentication": "^1.4",
+                "openeuropa/oe_corporate_blocks": "^4.2",
+                "openeuropa/oe_multilingual": "^1.8",
+                "openeuropa/task-runner-drupal-project-symlink": "^1.0",
+                "phpspec/prophecy-phpunit": "^1 || ^2"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "composer-exit-on-patch-failure": true,
+                "enable-patching": true,
+                "artifacts": {
+                    "openeuropa/oe_bootstrap_theme": {
+                        "dist": {
+                            "url": "https://github.com/{name}/releases/download/{pretty-version}/{project-name}-{pretty-version}.tar.gz",
+                            "type": "tar"
+                        }
+                    }
+                },
+                "drupal-scaffold": {
+                    "locations": {
+                        "web-root": "./build"
+                    }
+                },
+                "installer-paths": {
+                    "build/core": [
+                        "type:drupal-core"
+                    ],
+                    "build/profiles/contrib/{$name}": [
+                        "type:drupal-profile"
+                    ],
+                    "build/modules/contrib/{$name}": [
+                        "type:drupal-module"
+                    ],
+                    "build/themes/contrib/{$name}": [
+                        "type:drupal-theme"
+                    ]
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "./vendor/bin/run drupal:site-setup"
+                ],
+                "post-update-cmd": [
+                    "./vendor/bin/run drupal:site-setup"
+                ]
+            },
+            "license": [
+                "EUPL-1.2"
+            ],
+            "description": "OpenEuropa Whitelabel theme.",
+            "support": {
+                "source": "https://github.com/openeuropa/oe_whitelabel/tree/261020211815",
+                "issues": "https://github.com/openeuropa/oe_whitelabel/issues"
+            },
+            "time": "2021-10-26T16:13:16+00:00"
         },
         {
             "name": "openeuropa/open_vocabularies",

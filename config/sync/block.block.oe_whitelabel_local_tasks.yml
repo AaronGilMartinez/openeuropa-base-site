@@ -1,0 +1,22 @@
+uuid: 7f50b84b-429a-4e9d-9039-3d257fa68a51
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oe_whitelabel
+_core:
+  default_config_hash: zSqeETj75VgVVIf_lTiW3AgD2zEhVsoT9FTFhzHYe80
+id: oe_whitelabel_local_tasks
+theme: oe_whitelabel
+region: content
+weight: -20
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

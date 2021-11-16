@@ -1,0 +1,27 @@
+uuid: 602c2f8c-e3de-4023-b21b-fd0f5f6aa906
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - oe_bootstrap_theme
+_core:
+  default_config_hash: bbFI4kk8sCAia8v6ghJvIRhgGfI9nMfTM_SybAnUjXE
+id: oe_bootstrap_theme_mainnavigation
+theme: oe_bootstrap_theme
+region: navbar_left
+weight: -3
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

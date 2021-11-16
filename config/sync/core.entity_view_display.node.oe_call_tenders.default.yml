@@ -33,6 +33,16 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  extra_field_oe_call_tenders_label_status:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_call_tenders_status:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   oe_call_tenders_deadline:
     weight: 3
     label: above
@@ -115,6 +125,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  extra_field_oe_theme_helper_short_title_with_fallback: true
   langcode: true
   links: true
   oe_content_content_owner: true

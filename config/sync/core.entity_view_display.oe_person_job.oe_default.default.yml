@@ -18,6 +18,11 @@ targetEntityType: oe_person_job
 bundle: oe_default
 mode: default
 content:
+  extra_field_oe_theme_content_person_job_label:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   oe_acting:
     weight: 2
     label: above

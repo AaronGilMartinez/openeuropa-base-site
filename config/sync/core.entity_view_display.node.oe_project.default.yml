@@ -47,6 +47,11 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  extra_field_oe_theme_content_project_percentage:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   langcode:
     type: language
     weight: 24
@@ -267,4 +272,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  extra_field_oe_theme_helper_short_title_with_fallback: true
   search_api_excerpt: true

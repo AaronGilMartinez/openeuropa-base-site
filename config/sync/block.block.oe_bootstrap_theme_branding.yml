@@ -1,0 +1,25 @@
+uuid: 759013fd-1d3b-48c0-afd3-a3c8cf61e045
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - oe_bootstrap_theme
+_core:
+  default_config_hash: uSjZD9PFA7ZshvQDnmbYAdtzgiy1QHE0ICgbxMvQv1A
+id: oe_bootstrap_theme_branding
+theme: oe_bootstrap_theme
+region: navbar_branding
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

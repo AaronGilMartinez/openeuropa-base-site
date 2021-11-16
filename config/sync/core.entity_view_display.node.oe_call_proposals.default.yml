@@ -41,6 +41,21 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
+  extra_field_oe_call_proposals_label_status:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_call_proposals_publication_info:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_call_proposals_status:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   links:
     weight: 0
     region: content
@@ -176,6 +191,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  extra_field_oe_theme_helper_short_title_with_fallback: true
   langcode: true
   oe_content_content_owner: true
   oe_content_legacy_link: true

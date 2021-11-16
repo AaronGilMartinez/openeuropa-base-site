@@ -1,0 +1,20 @@
+uuid: 4170bf08-3d0f-4c2a-87c5-5a5ca800605a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oe_whitelabel
+_core:
+  default_config_hash: 0Rgjvwdgqcmia2iQ9P2bbU2PS3CuSDRd6SfAL1hrsN0
+id: oe_whitelabel_page_title
+theme: oe_whitelabel
+region: content
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

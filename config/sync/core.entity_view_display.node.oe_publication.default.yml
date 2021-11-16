@@ -41,6 +41,21 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
+  extra_field_oe_theme_content_publication_collection:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_theme_content_publication_date:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_theme_content_publication_description:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   langcode:
     type: language
     weight: 8
@@ -167,6 +182,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  extra_field_oe_theme_helper_short_title_with_fallback: true
   oe_author: true
   oe_content_navigation_title: true
   oe_publication_collection: true

@@ -56,6 +56,36 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
+  extra_field_oe_theme_content_event_contacts:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_theme_content_event_description:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_theme_content_event_details:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_theme_content_event_organiser:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_theme_content_event_registration_button:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_theme_content_event_summary:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   oe_content_short_title:
     type: string
     weight: 26
@@ -292,6 +322,10 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  extra_field_oe_theme_content_event_date_aware_status: true
+  extra_field_oe_theme_content_event_teaser_details: true
+  extra_field_oe_theme_content_event_teaser_meta: true
+  extra_field_oe_theme_helper_short_title_with_fallback: true
   langcode: true
   links: true
   oe_author: true

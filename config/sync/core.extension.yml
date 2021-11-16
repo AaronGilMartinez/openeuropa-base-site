@@ -9,6 +9,7 @@ module:
   cas: 0
   cas_mock_server: 0
   ckeditor: 0
+  components: 0
   composite_reference: 0
   config: 0
   config_translation: 0
@@ -62,6 +63,7 @@ module:
   oe_authentication: 0
   oe_authentication_eulogin_mock: 0
   oe_authentication_user_fields: 0
+  oe_bootstrap_theme_helper: 0
   oe_contact_forms: 0
   oe_content: 0
   oe_content_call_proposals: 0
@@ -101,8 +103,6 @@ module:
   oe_editorial: 0
   oe_editorial_content_lock: 0
   oe_editorial_corporate_workflow: 0
-  oe_editorial_corporate_workflow_translation: 0
-  oe_editorial_corporate_workflow_translation_poetry: 0
   oe_editorial_entity_version: 0
   oe_editorial_unpublish: 0
   oe_link_lists: 0
@@ -168,11 +168,8 @@ module:
   oe_theme_list_pages: 0
   oe_theme_paragraphs_contact: 0
   oe_time_caching: 0
-  oe_translation: 0
   oe_translation_block_field: 0
-  oe_translation_poetry: 0
   oe_translation_poetry_html_formatter: 0
-  oe_translation_poetry_mock: 0
   oe_webtools: 0
   oe_webtools_analytics: 0
   oe_webtools_analytics_rules: 0
@@ -217,6 +214,7 @@ module:
   ui_patterns: 0
   ui_patterns_field_group: 0
   ui_patterns_library: 0
+  ui_patterns_settings: 0
   update: 0
   user: 0
   views_ui: 0
@@ -232,6 +230,8 @@ theme:
   stable: 0
   oe_theme: 0
   bartik: 0
+  oe_bootstrap_theme: 0
+  oe_whitelabel: 0
 profile: oe_profile
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

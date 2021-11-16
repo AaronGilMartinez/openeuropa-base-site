@@ -35,6 +35,21 @@ targetEntityType: node
 bundle: oe_consultation
 mode: default
 content:
+  extra_field_oe_consultation_closed_status_text:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_consultation_label_status:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  extra_field_oe_consultation_status:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   links:
     weight: 0
     region: content
@@ -185,6 +200,7 @@ content:
     type: text_default
     region: content
 hidden:
+  extra_field_oe_theme_helper_short_title_with_fallback: true
   langcode: true
   oe_content_content_owner: true
   oe_content_legacy_link: true

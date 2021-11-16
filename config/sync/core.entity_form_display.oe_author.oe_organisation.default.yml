@@ -22,5 +22,10 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   status: true

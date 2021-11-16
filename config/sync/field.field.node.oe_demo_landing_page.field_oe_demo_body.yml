@@ -75,6 +75,9 @@ settings:
       oe_chart:
         enabled: true
         weight: 25
+      oe_contact:
+        enabled: true
+        weight: 36
       oe_content_row:
         enabled: true
         weight: 11
@@ -105,9 +108,6 @@ settings:
       oe_map:
         enabled: true
         weight: 25
-      oe_contact:
-        enabled: true
-        weight: 36
       oe_quote:
         enabled: true
         weight: 9

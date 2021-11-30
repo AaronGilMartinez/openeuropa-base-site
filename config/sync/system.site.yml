@@ -1,14 +1,15 @@
 uuid: f0e1b834-67cb-413c-86c0-72ac4fb7bb28
-name: 'My Website'
+name: 'Open Europa DEMO'
 mail: DIGIT-DRUPAL-DEVSECOPS@ec.europa.eu
-slogan: ''
+slogan: ' Directorate-General for Informatics (DIGIT) initiative aiming at strengthening the adoption of open source tools and practices in consolidating the European Institutions'' web presence.'
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /components
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

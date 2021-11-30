@@ -47,6 +47,8 @@ alias dcweb="dc exec web "
 ### 1.4 Installing the project
 
 ```bash
+# Upgrade composer to version 2.
+docker-compose exec web composer self-update --2
 # Run composer install in the web service.
 docker-compose exec web composer install
 # Build your development instance of the website.

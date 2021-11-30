@@ -16,7 +16,6 @@
 /grumphp.yml
 /runner.yml
 /docker-compose.*.yml
-*.sql
 *.gz
 .editorconfig
 /.gitattributes

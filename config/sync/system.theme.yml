@@ -1,4 +1,4 @@
 _core:
   default_config_hash: 37StisSoQizUHx7VrpD5uHL4lPZThgPZoRSJ2LGh1hg
 admin: seven
-default: oe_theme
+default: oe_whitelabel

@@ -233,4 +233,6 @@ theme:
   stable: 0
   oe_theme: 0
   bartik: 0
+  oe_bootstrap_theme: 0
+  oe_whitelabel: 0
 profile: oe_profile

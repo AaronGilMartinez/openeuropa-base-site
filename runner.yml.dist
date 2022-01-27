@@ -19,6 +19,12 @@ drupal:
         'namespace' => 'Drupal\sparql_entity_storage\Driver\Database\sparql',
         'driver' => 'sparql',
         ];
+        // Ignore BCL templates because of conflicting names, temporary solution.
+        $settings['file_scan_ignore_directories'] = [
+          'node_modules',
+          'bower_components',
+          'bcl',
+        ];
 behat:
     tags: ~@wip
 selenium:
@@ -46,5 +52,5 @@ commands:
   - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
   oe_bootstrap_theme:build-themes-dist:
   - "${runner.bin_dir}/run oe_bootstrap_theme:npm-run --npm-dir=web/themes/contrib/oe_bootstrap_theme production"
-  - "${runner.bin_dir}/run oe_bootstrap_theme:npm-run --npm-dir=lib/themes/contrib/oe_whitelabel production"
+  - "${runner.bin_dir}/run oe_bootstrap_theme:npm-run --npm-dir=web/themes/contrib/oe_whitelabel production"
 

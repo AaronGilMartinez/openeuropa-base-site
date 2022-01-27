@@ -18,28 +18,28 @@ bundle: oe_timeline
 mode: default
 content:
   field_oe_timeline:
-    weight: 1
+    type: timeline_formatter
     label: above
     settings:
       limit: '0'
       show_more: 'Show full timeline'
     third_party_settings: {  }
-    type: timeline_formatter
+    weight: 1
     region: content
   field_oe_timeline_expand:
-    weight: 2
+    type: list_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    weight: 2
     region: content
   field_oe_title:
-    weight: 0
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 0
     region: content
 hidden:
   search_api_excerpt: true

@@ -5,88 +5,86 @@ contact:
     href: 'tel:0080067891011'
     label: 'Call us 00 800 6 7 8 9 10 11'
   -
-    href: 'https://europa.eu/european-union/contact/call-us_en'
+    href: 'https://european-union.europa.eu/contact-eu/call-us_en'
     label: 'Use other telephone options'
   -
-    href: 'https://europa.eu/european-union/contact/write-to-us_en'
+    href: 'https://european-union.europa.eu/contact-eu/write-us_en'
     label: 'Write to us via our contact form'
   -
-    href: 'https://europa.eu/european-union/contact/meet-us_en'
-    label: 'Meet us at a local EU office'
+    href: 'https://european-union.europa.eu/contact-eu/meet-us_en'
+    label: 'Meet us at one of the EU centres'
 social_media_title: 'Social media'
 social_media:
   -
+    href: 'https://european-union.europa.eu/contact-eu/social-media-channels_en'
     label: 'Search for EU social media channels'
-    href: 'https://europa.eu/european-union/contact/social-networks_en'
 institution_links_title: 'EU institutions'
 institution_links:
   -
-    label: 'European Parliament'
     href: 'http://www.europarl.europa.eu/portal/'
+    label: 'European Parliament'
   -
-    label: 'European Council'
     href: 'http://www.consilium.europa.eu/en/european-council/'
+    label: 'European Council'
   -
-    label: 'Council of the European Union'
     href: 'http://www.consilium.europa.eu/en/home/'
+    label: 'Council of the European Union'
   -
-    label: 'European Commission'
     href: 'https://ec.europa.eu/commission/index_en'
+    label: 'European Commission'
   -
-    label: 'Court of Justice of the European Union (CJEU)'
     href: 'http://curia.europa.eu/jcms/jcms/j_6/en/'
+    label: 'Court of Justice of the European Union (CJEU)'
   -
-    label: 'European Central Bank (ECB)'
     href: 'https://www.ecb.europa.eu/home/html/index.en.html'
+    label: 'European Central Bank (ECB)'
   -
-    label: 'European Court of Auditors (ECA)'
     href: 'http://www.eca.europa.eu/en'
+    label: 'European Court of Auditors (ECA)'
   -
-    label: 'European External Action Service (EEAS)'
     href: 'https://eeas.europa.eu/headquarters/headquarters-homepage_en'
+    label: 'European External Action Service (EEAS)'
   -
-    label: 'European Economic and Social Committee (EESC)'
     href: 'http://www.eesc.europa.eu/?i=portal.en.home'
+    label: 'European Economic and Social Committee (EESC)'
   -
-    label: 'European Committee of the Regions (CoR)'
     href: 'http://cor.europa.eu/en/'
+    label: 'European Committee of the Regions (CoR)'
   -
-    label: 'European Investment Bank (EIB)'
     href: 'https://www.eib.org/en/index.htm'
+    label: 'European Investment Bank (EIB)'
   -
-    label: 'European Ombudsman'
     href: 'https://www.ombudsman.europa.eu/en/home'
+    label: 'European Ombudsman'
   -
-    label: 'European Data Protection Supervisor (EDPS)'
     href: 'https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=en'
+    label: 'European Data Protection Supervisor (EDPS)'
   -
-    label: 'European Data Protection Board'
     href: 'https://edpb.europa.eu/edpb_en'
+    label: 'European Data Protection Board'
   -
-    label: 'European Personnel Selection Office'
     href: 'https://epso.europa.eu/home_en'
+    label: 'European Personnel Selection Office'
   -
-    label: 'Publications Office of the European Union'
     href: 'https://op.europa.eu/en/home'
+    label: 'Publications Office of the European Union'
   -
+    href: 'https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles_en?f%5B0%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_DEC&f%5B1%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/AGENCY_EXEC&f%5B2%5D=oe_organisation_eu_type%3Ahttp%3A//publications.europa.eu/resource/authority/corporate-body-classification/EU_JU'
     label: Agencies
-    href: 'https://europa.eu/european-union/about-eu/agencies_en'
 legal_links_title: Legal
 legal_links:
   -
-    label: 'About this site'
-    href: 'https://europa.eu/european-union/abouteuropa_en'
+    href: 'https://european-union.europa.eu/languages-our-websites_en'
+    label: 'Languages on our websites'
   -
-    label: 'Language policy'
-    href: 'https://europa.eu/european-union/abouteuropa/language-policy_en'
-  -
+    href: 'https://european-union.europa.eu/privacy-policy_en'
     label: 'Privacy policy'
-    href: 'https://europa.eu/european-union/abouteuropa/privacy-policy_en'
   -
+    href: 'https://european-union.europa.eu/legal-notice_en'
     label: 'Legal notice'
-    href: 'https://europa.eu/european-union/abouteuropa/legal_notices_en'
   -
+    href: 'https://european-union.europa.eu/cookies_en'
     label: Cookies
-    href: 'https://europa.eu/european-union/abouteuropa/cookies_en'
-_core:
-  default_config_hash: UCex-mla-H9aYxgi469V7K0D0wLvFAxml8yHHU7PTAw
+  -
+    href: 'https://european-union.europa.eu/web-accessibility-policy_en'
+    label: Accessibility

@@ -44,25 +44,25 @@ bundle: oe_event
 mode: teaser
 content:
   extra_field_oe_theme_content_event_date_aware_status:
+    settings: {  }
+    third_party_settings: {  }
     weight: 3
     region: content
+  extra_field_oe_theme_content_event_teaser_details:
     settings: {  }
     third_party_settings: {  }
-  extra_field_oe_theme_content_event_teaser_details:
     weight: 1
     region: content
+  extra_field_oe_theme_content_event_teaser_meta:
     settings: {  }
     third_party_settings: {  }
-  extra_field_oe_theme_content_event_teaser_meta:
     weight: 2
     region: content
+  extra_field_oe_theme_helper_short_title_with_fallback:
     settings: {  }
     third_party_settings: {  }
-  extra_field_oe_theme_helper_short_title_with_fallback:
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   body: true
   extra_field_oe_theme_content_event_contacts: true

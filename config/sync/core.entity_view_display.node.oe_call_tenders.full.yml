@@ -28,14 +28,14 @@ third_party_settings:
         - group_item_details
         - group_item_description
         - group_item_documents
+      label: 'Page contents'
       parent_name: ''
+      region: content
       weight: 0
       format_type: oe_theme_helper_in_page_navigation
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Page contents'
+        id: ''
     group_details:
       children:
         - extra_field_oe_call_tenders_status
@@ -44,46 +44,46 @@ third_party_settings:
         - oe_call_tenders_opening_date
         - oe_call_tenders_deadline
         - oe_departments
+      label: ''
       parent_name: group_item_details
+      region: content
       weight: 21
       format_type: oe_theme_helper_field_list_pattern
-      region: content
       format_settings:
         variant: horizontal
-      label: ''
     group_item_details:
       children:
         - group_details
+      label: Details
       parent_name: group_in_page_navigation
+      region: content
       weight: 20
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Details
+        id: ''
     group_item_description:
       children:
         - body
+      label: Description
       parent_name: group_in_page_navigation
+      region: content
       weight: 21
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Description
+        id: ''
     group_item_documents:
       children:
         - oe_documents
+      label: Documents
       parent_name: group_in_page_navigation
+      region: content
       weight: 22
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Documents
+        id: ''
 _core:
   default_config_hash: 9OpG_hfvHdAqS3rAD1Dislp0KdxTXGLKgszB6n4BFSU
 id: node.oe_call_tenders.full
@@ -92,77 +92,77 @@ bundle: oe_call_tenders
 mode: full
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 22
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 22
     region: content
   extra_field_oe_call_tenders_status:
-    weight: 0
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_call_tenders_deadline:
-    weight: 4
+    type: datetime_default
     label: above
     settings:
       timezone_override: ''
       format_type: oe_call_tenders_date_full_timezone
     third_party_settings: {  }
-    type: datetime_default
+    weight: 4
     region: content
   oe_call_tenders_opening_date:
-    weight: 3
+    type: datetime_default
     label: above
     settings:
       timezone_override: ''
       format_type: oe_call_tenders_date_long
     third_party_settings: {  }
-    type: datetime_default
+    weight: 3
     region: content
   oe_departments:
     type: skos_concept_entity_reference_label
-    weight: 5
-    region: content
     label: above
     settings:
       link: false
     third_party_settings: {  }
+    weight: 5
+    region: content
   oe_documents:
-    weight: 23
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 23
     region: content
   oe_publication_date:
-    weight: 2
+    type: datetime_default
     label: above
     settings:
       timezone_override: ''
       format_type: oe_call_tenders_date_long
     third_party_settings: {  }
-    type: datetime_default
+    weight: 2
     region: content
   oe_reference:
-    weight: 1
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 1
     region: content
   oe_reference_code:
     type: string
-    weight: 1
-    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   extra_field_oe_call_tenders_label_status: true
   extra_field_oe_theme_helper_short_title_with_fallback: true

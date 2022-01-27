@@ -1,7 +1,19 @@
 uuid: c9294fe3-a825-4d37-9ca7-5797e9cbcc39
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - media.type.webtools_chart
+    - media.type.webtools_map
+    - media.type.webtools_social_feed
+    - node.type.oe_demo_landing_page
+  module:
+    - media
+    - node
+    - oe_content_entity_contact
+    - paragraphs
+    - system
+    - toolbar
 _core:
   default_config_hash: 0uFxRN_GQ0Pvrs2SzNTxLukbTAlGHprkAqamrkhVZEU
 id: editor

@@ -22,17 +22,17 @@ bundle: oe_page
 mode: teaser
 content:
   extra_field_oe_theme_helper_short_title_with_fallback:
-    weight: 0
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_teaser:
     type: text_default
-    weight: 1
-    region: content
     label: above
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   body: true
   langcode: true

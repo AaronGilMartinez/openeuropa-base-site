@@ -18,11 +18,11 @@ plugin: oe_corporate_blocks_ec_footer
 settings:
   id: oe_corporate_blocks_ec_footer
   label: 'European Commission corporate footer'
-  provider: oe_corporate_blocks
   label_display: '0'
+  provider: oe_corporate_blocks
 visibility:
   oe_theme_helper_current_component_library:
     id: oe_theme_helper_current_component_library
-    component_library: ec
     negate: false
     context_mapping: {  }
+    component_library: ec

@@ -37,11 +37,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
   oe_media_webtools:
+    type: oe_media_op_publication_lists_id
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: oe_media_op_publication_lists_id
-    region: content
   path:
     type: path
     weight: 30
@@ -50,19 +50,19 @@ content:
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 100
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
     weight: 5
+    region: content
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
-      match_limit: 10
-    region: content
     third_party_settings: {  }
 hidden: {  }

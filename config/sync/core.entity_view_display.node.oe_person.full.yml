@@ -50,93 +50,96 @@ third_party_settings:
         - group_transparency
         - group_biography
         - group_presentations
+      label: 'Page contents'
       parent_name: ''
+      region: content
       weight: 0
       format_type: oe_theme_helper_in_page_navigation
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Page contents'
+        id: ''
     group_contact:
       children:
         - oe_person_contacts
+      label: Contact
       parent_name: group_in_page_navigation
+      region: content
       weight: 2
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Contact
+        id: ''
     group_responsibilities:
       children:
         - oe_person_jobs
+      label: Responsibilities
       parent_name: group_in_page_navigation
+      region: content
       weight: 3
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Responsibilities
+        id: ''
     group_transparency:
       children:
         - oe_person_transparency_intro
         - oe_person_transparency_links
+      label: Transparency
       parent_name: group_in_page_navigation
+      region: content
       weight: 7
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Transparency
+        id: ''
     group_biography:
       children:
         - oe_person_biography_intro
         - oe_person_biography_timeline
         - oe_person_cv
         - group_declaration
+      label: Biography
       parent_name: group_in_page_navigation
+      region: content
       weight: 8
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Biography
+        id: ''
     group_presentations:
       children:
         - oe_person_documents
+      label: 'Articles and presentations'
       parent_name: group_in_page_navigation
+      region: content
       weight: 9
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Articles and presentations'
+        id: ''
     group_media:
       children:
         - oe_person_media
+      label: Media
       parent_name: group_in_page_navigation
+      region: content
       weight: 4
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Media
+        id: ''
     group_declaration:
       children:
         - oe_person_interests_intro
         - oe_person_interests_file
+      label: 'Declaration of interests'
       parent_name: group_biography
+      region: content
       weight: 3
       format_type: html_element
-      region: content
       format_settings:
+        classes: ''
+        id: ''
         element: div
         show_label: true
         label_element: h3
@@ -144,44 +147,41 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-        id: ''
-        classes: ''
-      label: 'Declaration of interests'
     group_details:
       children:
         - oe_departments
         - oe_person_organisation
+      label: ''
       parent_name: group_organisation
+      region: content
       weight: 21
       format_type: oe_theme_helper_field_list_pattern
-      region: content
       format_settings:
-        variant: horizontal
         classes: ''
         id: ''
-      label: ''
+        variant: horizontal
     group_organisation:
       children:
         - group_details
+      label: ''
       parent_name: group_in_page_navigation
+      region: content
       weight: 1
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: ''
+        id: ''
     group_social_media_links:
       children:
         - oe_social_media_links
+      label: ''
       parent_name: group_in_page_navigation
+      region: content
       weight: 5
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: ''
+        id: ''
 _core:
   default_config_hash: pM__aYXeG7-U7VQG0BoBUo6Pq2YguoSQBESk-O9Jn_w
 id: node.oe_person.full
@@ -191,84 +191,82 @@ mode: full
 content:
   oe_departments:
     type: skos_concept_entity_reference_label
-    weight: 21
-    region: content
     label: hidden
     settings:
       link: false
     third_party_settings: {  }
+    weight: 21
+    region: content
   oe_person_biography_intro:
     type: text_default
-    weight: 0
-    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_person_biography_timeline:
     type: timeline_formatter
-    weight: 1
-    region: content
     label: hidden
     settings:
       limit: '0'
       show_more: 'Show full timeline'
     third_party_settings: {  }
+    weight: 1
+    region: content
   oe_person_contacts:
     type: entity_reference_revisions_entity_view
-    weight: 6
-    region: content
     label: hidden
     settings:
       view_mode: full
       link: ''
     third_party_settings: {  }
+    weight: 6
+    region: content
   oe_person_cv:
     type: entity_reference_entity_view
-    weight: 2
-    region: content
     label: hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
+    weight: 2
+    region: content
   oe_person_documents:
     type: entity_reference_revisions_entity_view
-    weight: 0
-    region: content
     label: hidden
     settings:
       view_mode: full
       link: ''
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_person_interests_file:
     type: entity_reference_entity_view
-    weight: 6
-    region: content
     label: hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
+    weight: 6
+    region: content
   oe_person_interests_intro:
     type: text_default
-    weight: 4
-    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 4
+    region: content
   oe_person_jobs:
     type: entity_reference_revisions_entity_view
-    weight: 16
-    region: content
     label: hidden
     settings:
       view_mode: full
       link: ''
     third_party_settings: {  }
+    weight: 16
+    region: content
   oe_person_media:
     type: oe_theme_helper_media_gallery
-    weight: 0
-    region: content
     label: above
     settings:
       image_style: large
@@ -283,47 +281,49 @@ content:
           caption: name
           copyright: ''
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_person_organisation:
     type: entity_reference_label
-    weight: 22
-    region: content
     label: hidden
     settings:
       link: false
     third_party_settings: {  }
+    weight: 22
+    region: content
   oe_person_transparency_intro:
     type: text_default
-    weight: 0
-    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_person_transparency_links:
     type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
     weight: 1
     region: content
-    label: hidden
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
   oe_social_media_links:
     type: oe_theme_helper_social_media_links_formatter
-    weight: 6
-    region: content
     label: hidden
     settings:
       trim_length: 80
-      title: 'Follow the latest progress and learn more about getting involved.'
-      variant: horizontal
       url_only: false
       url_plain: false
       rel: ''
       target: ''
+      title: 'Follow the latest progress and learn more about getting involved.'
+      variant: horizontal
     third_party_settings: {  }
+    weight: 6
+    region: content
 hidden:
   extra_field_oe_theme_content_person_job_list: true
   extra_field_oe_theme_helper_short_title_with_fallback: true

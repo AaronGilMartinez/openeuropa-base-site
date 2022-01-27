@@ -32,15 +32,15 @@ third_party_settings:
         - oe_address
         - oe_office
         - oe_social_media
+      label: 'Contact information'
       parent_name: ''
+      region: content
       weight: 0
       format_type: oe_theme_helper_field_list_pattern
-      region: content
       format_settings:
-        variant: horizontal
         classes: ''
         id: ''
-      label: 'Contact information'
+        variant: horizontal
 _core:
   default_config_hash: SoYh4qmjv8gVBeh_FlotNUQw16YhbbEsffe4utL7VCg
 id: oe_contact.oe_general.oe_person
@@ -49,56 +49,54 @@ bundle: oe_general
 mode: oe_person
 content:
   oe_address:
-    weight: 8
+    type: oe_theme_helper_address_inline
     label: hidden
     settings:
       delimiter: ', '
     third_party_settings: {  }
-    type: oe_theme_helper_address_inline
+    weight: 8
     region: content
   oe_email:
-    weight: 4
+    type: email_mailto
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: email_mailto
+    weight: 4
     region: content
   oe_fax:
     type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 7
     region: content
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
   oe_mobile:
     type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 6
     region: content
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
   oe_office:
     type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 9
     region: content
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
   oe_phone:
-    weight: 5
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 5
     region: content
   oe_social_media:
     type: oe_theme_helper_social_media_icons_list_formatter
-    weight: 10
-    region: content
     label: hidden
     settings:
       trim_length: 80
@@ -107,6 +105,8 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
+    weight: 10
+    region: content
 hidden:
   created: true
   langcode: true

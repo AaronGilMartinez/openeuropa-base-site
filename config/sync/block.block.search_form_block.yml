@@ -17,6 +17,6 @@ plugin: oe_search
 settings:
   id: oe_search
   label: 'OpenEuropa Search block'
-  provider: oe_search
   label_display: visible
+  provider: oe_search
 visibility: {  }

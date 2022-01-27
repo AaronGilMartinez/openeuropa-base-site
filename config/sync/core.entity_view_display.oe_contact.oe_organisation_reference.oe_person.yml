@@ -15,13 +15,13 @@ mode: oe_person
 content:
   oe_node_reference:
     type: entity_reference_entity_view
-    weight: 0
-    region: content
     label: hidden
     settings:
       view_mode: oe_person_oe_contact
       link: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   created: true
   langcode: true

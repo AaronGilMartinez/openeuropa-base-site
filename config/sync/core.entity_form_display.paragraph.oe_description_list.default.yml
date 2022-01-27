@@ -16,24 +16,24 @@ bundle: oe_description_list
 mode: default
 content:
   field_oe_description_list_items:
+    type: description_list_widget
     weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: description_list_widget
-    region: content
   field_oe_title:
+    type: string_textfield
     weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   translation:
     weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   created: true
   status: true

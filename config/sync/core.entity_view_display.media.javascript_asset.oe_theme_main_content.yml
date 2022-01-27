@@ -21,11 +21,11 @@ mode: oe_theme_main_content
 content:
   oe_media_js_asset_url:
     type: oe_media_js_asset_url
-    weight: 0
-    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   created: true
   ewcms_available_translations: true

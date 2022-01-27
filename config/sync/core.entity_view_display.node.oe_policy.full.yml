@@ -23,20 +23,20 @@ bundle: oe_policy
 mode: full
 content:
   body:
-    weight: 0
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 0
     region: content
   oe_timeline:
-    weight: 1
+    type: timeline_formatter
     label: above
     settings:
       limit: '5'
       show_more: 'Show full timeline'
     third_party_settings: {  }
-    type: timeline_formatter
+    weight: 1
     region: content
 hidden:
   extra_field_oe_theme_helper_short_title_with_fallback: true

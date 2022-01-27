@@ -13,6 +13,6 @@ source: webtools
 queue_thumbnail_downloads: false
 new_revision: false
 source_configuration:
-  widget_type: social_feed
   source_field: oe_media_webtools
+  widget_type: social_feed
 field_map: {  }

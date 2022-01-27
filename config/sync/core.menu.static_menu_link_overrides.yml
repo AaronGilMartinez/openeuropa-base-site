@@ -1,99 +1,99 @@
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
 definitions:
   oe_theme_demo__main__about:
-    weight: -42
     menu_name: main
     parent: ''
+    weight: -42
     expanded: true
     enabled: false
   oe_theme_demo__main__about_2:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.about
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__about_1:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.about
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__priorities:
-    weight: -41
     menu_name: main
     parent: ''
+    weight: -41
     expanded: true
     enabled: false
   oe_theme_demo__main__priorities_8:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.priorities
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__priorities_2:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.priorities
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__priorities_3:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.priorities
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__priorities_4:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.priorities
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__priorities_1:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.priorities
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__priorities_6:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.priorities
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__priorities_7:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.priorities
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__priorities_5:
-    enabled: false
     menu_name: main
     parent: oe_theme_demo.main.priorities
     weight: 0
     expanded: false
+    enabled: false
   oe_theme_demo__main__contacts:
-    weight: -40
     menu_name: main
     parent: ''
+    weight: -40
     expanded: false
     enabled: false
   oe_theme_demo__main__components:
-    weight: -38
     menu_name: main
     parent: ''
+    weight: -38
     expanded: false
     enabled: false
   oe_theme_demo__main__home:
-    weight: -43
     menu_name: main
     parent: ''
+    weight: -43
     expanded: false
     enabled: false
   oe_theme_demo__main__styleguide:
-    weight: -39
     menu_name: main
     parent: ''
+    weight: -39
     expanded: false
     enabled: false
-_core:
-  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

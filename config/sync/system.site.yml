@@ -1,3 +1,6 @@
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+langcode: en
 uuid: f0e1b834-67cb-413c-86c0-72ac4fb7bb28
 name: 'Open Europa DEMO'
 mail: DIGIT-DRUPAL-DEVSECOPS@ec.europa.eu
@@ -8,8 +11,5 @@ page:
   front: /components
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
 default_langcode: en
-_core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
 mail_notification: ''

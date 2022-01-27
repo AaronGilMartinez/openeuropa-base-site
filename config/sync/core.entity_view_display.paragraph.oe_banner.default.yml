@@ -21,24 +21,24 @@ bundle: oe_banner
 mode: default
 content:
   field_oe_banner_full_width:
-    weight: 5
+    type: boolean
     label: above
     settings:
       format: default
       format_custom_false: ''
       format_custom_true: ''
     third_party_settings: {  }
-    type: boolean
+    weight: 5
     region: content
   field_oe_banner_type:
-    weight: 4
+    type: list_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    weight: 4
     region: content
   field_oe_link:
-    weight: 2
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -47,32 +47,32 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 2
     region: content
   field_oe_media:
     type: entity_reference_entity_view
-    weight: 3
     label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
+    weight: 3
     region: content
   field_oe_text:
-    weight: 1
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 1
     region: content
   field_oe_title:
-    weight: 0
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 0
     region: content
 hidden:
   search_api_excerpt: true

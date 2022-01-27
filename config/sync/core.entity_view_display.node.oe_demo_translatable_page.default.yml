@@ -17,11 +17,11 @@ mode: default
 content:
   field_oe_demo_translatable_body:
     type: text_default
-    weight: 0
-    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   extra_field_oe_theme_helper_short_title_with_fallback: true
   langcode: true

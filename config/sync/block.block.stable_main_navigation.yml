@@ -19,7 +19,7 @@ plugin: 'oe_theme_helper_site_navigation:main'
 settings:
   id: 'oe_theme_helper_site_navigation:main'
   label: 'Main navigation'
-  provider: oe_theme_helper
   label_display: '0'
+  provider: oe_theme_helper
   level: 1
 visibility: {  }

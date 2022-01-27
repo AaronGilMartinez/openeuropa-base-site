@@ -31,13 +31,13 @@ bundle: oe_organisation
 mode: oe_contact
 content:
   oe_organisation_contact:
-    weight: 0
+    type: entity_reference_revisions_entity_view
     label: hidden
     settings:
       view_mode: full
       link: ''
     third_party_settings: {  }
-    type: entity_reference_revisions_entity_view
+    weight: 0
     region: content
 hidden:
   body: true

@@ -38,21 +38,21 @@ content:
     settings: {  }
     third_party_settings: {  }
   oe_capacity:
+    type: string_textfield
     weight: 3
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   oe_room:
+    type: string_textfield
     weight: 4
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
 hidden:
   created: true
   status: true

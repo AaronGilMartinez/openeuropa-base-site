@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   address: 0
   aggregator: 0
@@ -64,6 +66,7 @@ module:
   oe_authentication_eulogin_mock: 0
   oe_authentication_user_fields: 0
   oe_bootstrap_theme_helper: 0
+  oe_bootstrap_theme_paragraphs: 0
   oe_contact_forms: 0
   oe_content: 0
   oe_content_call_proposals: 0
@@ -231,5 +234,3 @@ theme:
   oe_theme: 0
   bartik: 0
 profile: oe_profile
-_core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

@@ -1,7 +1,12 @@
 uuid: be73f4e7-a1e9-47a2-95a3-ad5cc4b17eb9
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - workflows.workflow.oe_corporate_workflow
+  module:
+    - content_moderation
+    - node
 _core:
   default_config_hash: _34WDCljpGGlhIhsmhKCA_zChFHqPZ9VqCCJbaLfZN4
 id: oe_reviewer
@@ -11,7 +16,6 @@ is_admin: null
 permissions:
   - 'access content overview'
   - 'use oe_corporate_workflow transition needs_review_to_draft'
-  - 'use oe_corporate_workflow transition needs_review_to_needs_review'
   - 'use oe_corporate_workflow transition needs_review_to_request_validation'
   - 'view all revisions'
   - 'view any unpublished content'

@@ -18,13 +18,13 @@ mode: oe_theme_main_content
 content:
   oe_media_image:
     type: responsive_image
-    weight: 0
-    region: content
     label: hidden
     settings:
       responsive_image_style: oe_theme_main_content
       image_link: ''
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   created: true
   langcode: true

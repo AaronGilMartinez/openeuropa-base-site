@@ -19,19 +19,19 @@ mode: full
 content:
   name:
     type: string
-    weight: 0
-    region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_address:
-    weight: 1
+    type: oe_theme_helper_address_inline
     label: hidden
     settings:
       delimiter: ', '
     third_party_settings: {  }
-    type: oe_theme_helper_address_inline
+    weight: 1
     region: content
 hidden:
   created: true

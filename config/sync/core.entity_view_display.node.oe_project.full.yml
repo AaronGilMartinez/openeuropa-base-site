@@ -43,11 +43,14 @@ third_party_settings:
         - group_details
         - group_budget
         - group_resources
+      label: Top
       parent_name: ''
+      region: content
       weight: 0
       format_type: html_element
-      region: content
       format_settings:
+        classes: ''
+        id: ''
         element: div
         show_label: false
         label_element: h3
@@ -55,54 +58,54 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-        id: ''
-        classes: ''
-      label: Top
     group_details:
       children:
         - oe_reference_code
         - oe_project_dates
         - oe_project_locations
+      label: Details
       parent_name: group_top
+      region: content
       weight: 3
       format_type: oe_theme_helper_field_list_pattern
-      region: content
       format_settings:
         variant: featured_horizontal
-      label: Details
     group_budget:
       children:
         - oe_project_budget
         - extra_field_oe_theme_content_project_percentage
+      label: Budget
       parent_name: group_top
+      region: content
       weight: 4
       format_type: oe_theme_helper_field_list_pattern
-      region: content
       format_settings:
         variant: featured_horizontal
-      label: Budget
     group_resources:
       children:
         - oe_project_website
         - oe_departments
+      label: Resources
       parent_name: group_top
+      region: content
       weight: 5
       format_type: oe_theme_helper_field_list_pattern
-      region: content
       format_settings:
-        variant: featured_horizontal
         classes: ''
         id: ''
-      label: Resources
+        variant: featured_horizontal
     group_result:
       children:
         - oe_project_results
         - oe_project_result_files
+      label: Results
       parent_name: ''
+      region: content
       weight: 2
       format_type: html_element
-      region: content
       format_settings:
+        classes: ''
+        id: ''
         element: div
         show_label: true
         label_element: h3
@@ -110,18 +113,18 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-        id: ''
-        classes: ''
-      label: Results
     group_stakeholders:
       children:
         - oe_project_coordinators
         - oe_project_participants
+      label: Stakeholders
       parent_name: ''
+      region: content
       weight: 4
       format_type: html_element
-      region: content
       format_settings:
+        classes: ''
+        id: ''
         element: div
         show_label: true
         label_element: h3
@@ -129,18 +132,18 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-        id: ''
-        classes: ''
-      label: Stakeholders
     group_funding:
       children:
         - oe_project_funding_programme
         - oe_project_calls
+      label: Funding
       parent_name: ''
+      region: content
       weight: 3
       format_type: html_element
-      region: content
       format_settings:
+        classes: ''
+        id: ''
         element: div
         show_label: true
         label_element: h3
@@ -148,9 +151,6 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-        id: ''
-        classes: ''
-      label: Funding
 _core:
   default_config_hash: 8YXwlOR1n3-vpBrzESV_ZgoVlafXO6XQ6r1v79eoaXo
 id: node.oe_project.full
@@ -159,46 +159,44 @@ bundle: oe_project
 mode: full
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 1
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 1
     region: content
   extra_field_oe_theme_content_project_percentage:
-    weight: 9
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 9
+    region: content
   oe_departments:
     type: skos_concept_entity_reference_label
-    weight: 6
-    region: content
     label: above
     settings:
       link: false
     third_party_settings: {  }
+    weight: 6
+    region: content
   oe_documents:
     type: entity_reference_entity_view
-    weight: 1
-    region: content
     label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
+    weight: 1
+    region: content
   oe_featured_media:
     type: oe_theme_helper_featured_media_formatter
-    weight: 0
-    region: content
     label: hidden
     settings:
       image_style: oe_theme_medium_no_crop
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_project_budget:
     type: number_decimal
-    weight: 7
-    region: content
     label: above
     settings:
       thousand_separator: .
@@ -206,10 +204,10 @@ content:
       scale: 0
       prefix_suffix: true
     third_party_settings: {  }
+    weight: 7
+    region: content
   oe_project_calls:
     type: link
-    weight: 14
-    region: content
     label: hidden
     settings:
       trim_length: null
@@ -218,79 +216,79 @@ content:
       rel: '0'
       target: '0'
     third_party_settings: {  }
+    weight: 14
+    region: content
   oe_project_contact:
     type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: full
+      link: ''
+    third_party_settings: {  }
     weight: 5
     region: content
-    label: hidden
-    settings:
-      view_mode: full
-      link: ''
-    third_party_settings: {  }
   oe_project_coordinators:
     type: entity_reference_revisions_entity_view
-    weight: 10
-    region: content
     label: hidden
     settings:
       view_mode: full
       link: ''
     third_party_settings: {  }
+    weight: 10
+    region: content
   oe_project_dates:
     type: daterange_default
-    weight: 1
-    region: content
     label: above
     settings:
       timezone_override: ''
       format_type: oe_project_date
       separator: '-'
     third_party_settings: {  }
+    weight: 1
+    region: content
   oe_project_funding_programme:
     type: skos_concept_entity_reference_label
-    weight: 13
-    region: content
     label: hidden
     settings:
       link: false
     third_party_settings: {  }
+    weight: 13
+    region: content
   oe_project_locations:
     type: oe_theme_helper_address_inline
-    weight: 2
-    region: content
     label: above
     settings:
       delimiter: ', '
     third_party_settings: {  }
+    weight: 2
+    region: content
   oe_project_participants:
     type: entity_reference_revisions_entity_view
-    weight: 11
-    region: content
     label: hidden
     settings:
       view_mode: full
       link: ''
     third_party_settings: {  }
+    weight: 11
+    region: content
   oe_project_result_files:
-    weight: 3
+    type: entity_reference_entity_view
     label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 3
     region: content
   oe_project_results:
     type: text_default
-    weight: 2
-    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 2
+    region: content
   oe_project_website:
     type: link
-    weight: 5
-    region: content
     label: above
     settings:
       trim_length: 80
@@ -299,14 +297,16 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
+    weight: 5
+    region: content
   oe_reference_code:
     type: string
-    weight: 0
-    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   extra_field_oe_theme_helper_short_title_with_fallback: true
   langcode: true

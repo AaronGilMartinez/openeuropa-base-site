@@ -37,29 +37,29 @@ content:
       include_locked: true
     third_party_settings: {  }
   links:
+    type: inline_entity_form_complex
     weight: 2
+    region: content
     settings:
       form_mode: default
-      revision: true
       override_labels: true
       label_singular: Link
       label_plural: Links
       allow_new: true
+      allow_existing: false
       match_operator: CONTAINS
+      allow_duplicate: false
       collapsible: false
       collapsed: false
-      allow_existing: false
-      allow_duplicate: false
+      revision: true
       removed_reference: keep
     third_party_settings: {  }
-    type: inline_entity_form_complex
-    region: content
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 4
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield

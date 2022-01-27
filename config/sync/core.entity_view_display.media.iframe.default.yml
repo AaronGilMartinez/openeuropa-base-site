@@ -17,11 +17,11 @@ bundle: iframe
 mode: default
 content:
   oe_media_iframe:
+    type: oe_media_iframe
     label: hidden
-    weight: 0
     settings: {  }
     third_party_settings: {  }
-    type: oe_media_iframe
+    weight: 0
     region: content
 hidden:
   created: true

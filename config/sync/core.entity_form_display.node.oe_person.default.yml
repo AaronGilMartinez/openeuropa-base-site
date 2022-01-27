@@ -45,17 +45,17 @@ third_party_settings:
         - oe_content_short_title
         - oe_content_navigation_title
         - oe_teaser
+      label: 'Alternative titles and teaser'
+      region: content
       parent_name: ''
       weight: 22
       format_type: tab
-      region: content
       format_settings:
-        id: ''
         classes: ''
-        description: ''
+        id: ''
         formatter: open
+        description: ''
         required_fields: true
-      label: 'Alternative titles and teaser'
 _core:
   default_config_hash: s-1m7GR_KH57b2VSUTto-mS2DSmox5QlsH-K_uXVPfI
 id: node.oe_person.default
@@ -132,28 +132,28 @@ content:
       placeholder: ''
     third_party_settings: {  }
   oe_person_biography_timeline:
+    type: timeline_widget
     weight: 17
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: timeline_widget
-    region: content
   oe_person_contacts:
     type: inline_entity_form_complex
     weight: 13
     region: content
     settings:
       form_mode: default
-      revision: true
       override_labels: true
       label_singular: contact
       label_plural: contacts
       allow_new: true
+      allow_existing: false
       match_operator: CONTAINS
-      removed_reference: keep
+      allow_duplicate: false
       collapsible: false
       collapsed: false
-      allow_existing: false
-      allow_duplicate: false
+      revision: true
+      removed_reference: keep
     third_party_settings: {  }
   oe_person_cv:
     type: entity_reference_autocomplete
@@ -174,23 +174,23 @@ content:
       placeholder: ''
     third_party_settings: {  }
   oe_person_documents:
+    type: inline_entity_form_complex
     weight: 21
+    region: content
     settings:
       form_mode: default
-      revision: true
+      override_labels: false
       label_singular: ''
       label_plural: ''
-      collapsible: true
       allow_new: true
-      match_operator: CONTAINS
-      removed_reference: keep
-      override_labels: false
-      collapsed: false
       allow_existing: false
+      match_operator: CONTAINS
       allow_duplicate: false
+      collapsible: true
+      collapsed: false
+      revision: true
+      removed_reference: keep
     third_party_settings: {  }
-    type: inline_entity_form_complex
-    region: content
   oe_person_first_name:
     type: string_textfield
     weight: 4
@@ -228,23 +228,23 @@ content:
       placeholder: ''
     third_party_settings: {  }
   oe_person_jobs:
+    type: inline_entity_form_complex
     weight: 11
+    region: content
     settings:
       form_mode: default
-      revision: true
+      override_labels: false
       label_singular: ''
       label_plural: ''
-      collapsible: true
       allow_new: true
-      match_operator: CONTAINS
-      removed_reference: keep
-      override_labels: false
-      collapsed: false
       allow_existing: false
+      match_operator: CONTAINS
       allow_duplicate: false
+      collapsible: true
+      collapsed: false
+      revision: true
+      removed_reference: keep
     third_party_settings: {  }
-    type: inline_entity_form_complex
-    region: content
   oe_person_last_name:
     type: string_textfield
     weight: 5
@@ -360,24 +360,24 @@ content:
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 28
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 31
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 29
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -393,16 +393,16 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 26
+    region: content
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
-      match_limit: 10
-    region: content
     third_party_settings: {  }
   url_redirects:
     weight: 50
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }

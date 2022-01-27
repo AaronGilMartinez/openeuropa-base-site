@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: YryWvx5nqC1-HW1XqoX04DyqK8oC_hjAqK3W9geI2EY
 entity_types:
   skos_concept_scheme:
     -
@@ -85,5 +87,3 @@ entity_types:
     -
       name: role-qualifier
       uri: 'http://publications.europa.eu/resource/dataset/role-qualifier'
-_core:
-  default_config_hash: YryWvx5nqC1-HW1XqoX04DyqK8oC_hjAqK3W9geI2EY

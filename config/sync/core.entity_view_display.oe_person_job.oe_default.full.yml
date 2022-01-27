@@ -19,16 +19,16 @@ bundle: oe_default
 mode: full
 content:
   extra_field_oe_theme_content_person_job_label:
-    weight: 0
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_description:
-    weight: 1
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 1
     region: content
 hidden:
   oe_acting: true

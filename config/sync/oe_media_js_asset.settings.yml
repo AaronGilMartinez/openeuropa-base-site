@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: rGHSKRCQqyOlyeS2245UycYD-qJjOZMSj8cXsTHSw04
 environments:
   acceptance:
     label: Acceptance
@@ -5,5 +7,3 @@ environments:
   production:
     label: Production
     url: 'https://ec.europa.eu/assets'
-_core:
-  default_config_hash: rGHSKRCQqyOlyeS2245UycYD-qJjOZMSj8cXsTHSw04

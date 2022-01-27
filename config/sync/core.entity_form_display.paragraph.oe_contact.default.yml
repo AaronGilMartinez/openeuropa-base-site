@@ -16,36 +16,36 @@ bundle: oe_contact
 mode: default
 content:
   field_oe_contacts:
+    type: inline_entity_form_complex
     weight: 1
+    region: content
     settings:
       form_mode: default
-      revision: true
       override_labels: true
       label_singular: Contact
       label_plural: Contacts
-      collapsible: true
       allow_new: true
-      match_operator: CONTAINS
-      removed_reference: keep
-      collapsed: false
       allow_existing: false
+      match_operator: CONTAINS
       allow_duplicate: false
+      collapsible: true
+      collapsed: false
+      revision: true
+      removed_reference: keep
     third_party_settings: {  }
-    type: inline_entity_form_complex
-    region: content
   field_oe_title:
+    type: string_textfield
     weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   translation:
     weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   created: true
   status: true

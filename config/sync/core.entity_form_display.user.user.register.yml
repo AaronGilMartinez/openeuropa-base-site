@@ -15,19 +15,19 @@ mode: register
 content:
   account:
     weight: -10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   contact:
     weight: 5
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   language:
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   path:
     type: path
     weight: 30
@@ -36,9 +36,9 @@ content:
     third_party_settings: {  }
   timezone:
     weight: 6
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   langcode: true
   tmgmt_translation_skills: true

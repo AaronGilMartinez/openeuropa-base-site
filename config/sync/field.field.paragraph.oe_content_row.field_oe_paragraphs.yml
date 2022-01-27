@@ -28,7 +28,6 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       oe_accordion: oe_accordion
       oe_links_block: oe_links_block
@@ -37,13 +36,14 @@ settings:
       oe_quote: oe_quote
       oe_rich_text: oe_rich_text
       oe_social_media_follow: oe_social_media_follow
+    negate: 0
     target_bundles_drag_drop:
       block_reference:
-        enabled: true
         weight: -18
-      oe_accordion:
         enabled: true
+      oe_accordion:
         weight: -15
+        enabled: true
       oe_accordion_item:
         weight: -14
         enabled: false
@@ -51,24 +51,24 @@ settings:
         weight: -13
         enabled: false
       oe_contextual_navigation:
-        enabled: true
         weight: -16
-      oe_links_block:
         enabled: true
+      oe_links_block:
         weight: -20
+        enabled: true
       oe_list_item:
         weight: -12
         enabled: false
       oe_list_item_block:
-        enabled: true
         weight: -21
+        enabled: true
       oe_quote:
-        enabled: true
         weight: -19
+        enabled: true
       oe_rich_text:
-        enabled: true
         weight: -22
-      oe_social_media_follow:
         enabled: true
+      oe_social_media_follow:
         weight: -17
+        enabled: true
 field_type: entity_reference_revisions

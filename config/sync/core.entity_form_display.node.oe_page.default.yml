@@ -26,12 +26,12 @@ content:
   body:
     type: text_textarea_with_summary
     weight: 3
+    region: content
     settings:
       rows: 9
-      placeholder: ''
       summary_rows: 3
+      placeholder: ''
     third_party_settings: {  }
-    region: content
   created:
     type: datetime_timestamp
     weight: 11
@@ -46,14 +46,14 @@ content:
       include_locked: true
     third_party_settings: {  }
   oe_author:
+    type: skos_concept_entity_reference_autocomplete
     weight: 5
+    region: content
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: skos_concept_entity_reference_autocomplete
-    region: content
   oe_content_content_owner:
     type: skos_concept_entity_reference_autocomplete
     weight: 8
@@ -91,24 +91,26 @@ content:
         maxlength_js: 170
         maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
   oe_related_links:
+    type: link_default
     weight: 26
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   oe_subject:
+    type: skos_concept_entity_reference_autocomplete
     weight: 4
+    region: content
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: skos_concept_entity_reference_autocomplete
-    region: content
   oe_summary:
+    type: text_textarea
     weight: 2
+    region: content
     settings:
       rows: 5
       placeholder: ''
@@ -118,10 +120,10 @@ content:
         maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
         maxlength_js_enforce: true
         maxlength_js_truncate_html: true
-    type: text_textarea
-    region: content
   oe_teaser:
+    type: text_textarea
     weight: 1
+    region: content
     settings:
       rows: 5
       placeholder: ''
@@ -131,8 +133,6 @@ content:
         maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
         maxlength_js_enforce: true
         maxlength_js_truncate_html: true
-    type: text_textarea
-    region: content
   path:
     type: path
     weight: 30
@@ -141,24 +141,24 @@ content:
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 12
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 14
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 13
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -174,15 +174,15 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 10
+    region: content
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-    region: content
     third_party_settings: {  }
   url_redirects:
     weight: 50
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }

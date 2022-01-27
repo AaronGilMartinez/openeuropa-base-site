@@ -17,8 +17,8 @@ plugin: oe_theme_helper_page_header
 settings:
   id: oe_theme_helper_page_header
   label: 'Page header'
-  provider: oe_theme_helper
   label_display: '0'
+  provider: oe_theme_helper
   context_mapping:
     page_header: '@oe_theme_helper.page_header_context:page_header'
 visibility: {  }

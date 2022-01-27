@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: XirdiUCPen51cR0h3hyL2sUzz7MGp7ZVs0sXHYrvkYs
 include:
   - media
 exclude:
@@ -8,5 +10,3 @@ coverage:
   document: any
   page: 'false'
 icon: all
-_core:
-  default_config_hash: XirdiUCPen51cR0h3hyL2sUzz7MGp7ZVs0sXHYrvkYs

@@ -13,6 +13,6 @@ source: webtools
 queue_thumbnail_downloads: false
 new_revision: false
 source_configuration:
-  widget_type: map
   source_field: oe_media_webtools
+  widget_type: map
 field_map: {  }

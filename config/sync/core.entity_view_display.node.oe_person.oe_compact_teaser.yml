@@ -42,20 +42,20 @@ mode: oe_compact_teaser
 content:
   oe_person_jobs:
     type: entity_reference_revisions_label
-    weight: 0
-    region: content
     label: hidden
     settings:
       link: false
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_person_photo:
     type: oe_theme_helper_media_thumbnail_url
-    weight: 1
-    region: content
     label: hidden
     settings:
       image_style: oe_theme_small_no_crop
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   extra_field_oe_theme_content_person_job_list: true
   extra_field_oe_theme_helper_short_title_with_fallback: true

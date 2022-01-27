@@ -6,6 +6,6 @@ _core:
   default_config_hash: zPw5Q2J2ZVYjn5Q9phbz8SZb4I-lhSIzR_QxIJyNslg
 id: twitter
 label: 'Custom Twitter'
-social_network: twitter
 url: 'https://twitter.com/EU_commission'
 weight: -9
+social_network: twitter

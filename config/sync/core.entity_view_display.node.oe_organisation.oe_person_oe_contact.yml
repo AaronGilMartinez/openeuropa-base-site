@@ -32,13 +32,13 @@ mode: oe_person_oe_contact
 content:
   oe_organisation_contact:
     type: entity_reference_revisions_entity_view
-    weight: 0
-    region: content
     label: hidden
     settings:
       view_mode: oe_person
       link: ''
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   body: true
   extra_field_oe_theme_content_organisation_teaser_details: true

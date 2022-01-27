@@ -23,16 +23,16 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       oe_accordion_item: oe_accordion_item
+    negate: 0
     target_bundles_drag_drop:
       oe_accordion:
         weight: 5
         enabled: false
       oe_accordion_item:
-        enabled: true
         weight: 6
+        enabled: true
       oe_links_block:
         weight: 7
         enabled: false

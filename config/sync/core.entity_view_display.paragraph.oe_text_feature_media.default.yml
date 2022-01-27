@@ -22,16 +22,14 @@ mode: default
 content:
   field_oe_feature_media_title:
     type: string
-    weight: 1
-    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 1
+    region: content
   field_oe_link:
     type: link
-    weight: 5
-    region: content
     label: above
     settings:
       trim_length: 80
@@ -40,36 +38,38 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
+    weight: 5
+    region: content
   field_oe_media:
     type: entity_reference_entity_view
-    weight: 2
     label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
+    weight: 2
     region: content
   field_oe_plain_text_long:
-    weight: 3
+    type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    weight: 3
     region: content
   field_oe_text_long:
-    weight: 4
+    type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 4
     region: content
   field_oe_title:
-    weight: 0
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 0
     region: content
 hidden:
   search_api_excerpt: true

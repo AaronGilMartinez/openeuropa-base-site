@@ -34,59 +34,59 @@ third_party_settings:
         - group_item_description
         - group_item_files
         - group_item_contacts
+      label: 'Page contents'
       parent_name: ''
+      region: content
       weight: 1
       format_type: oe_theme_helper_in_page_navigation
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Page contents'
+        id: ''
     group_item_details:
       children:
         - group_details
+      label: Details
       parent_name: group_in_page_navigation
+      region: content
       weight: 22
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Details
+        id: ''
     group_item_description:
       children:
         - extra_field_oe_theme_content_publication_description
+      label: Description
       parent_name: group_in_page_navigation
+      region: content
       weight: 23
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Description
+        id: ''
     group_item_files:
       children:
         - oe_documents
         - oe_publication_publications
+      label: Files
       parent_name: group_in_page_navigation
+      region: content
       weight: 24
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Files
+        id: ''
     group_item_contacts:
       children:
         - oe_publication_contacts
+      label: Contact
       parent_name: group_in_page_navigation
+      region: content
       weight: 25
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Contact
+        id: ''
     group_details:
       children:
         - oe_reference_codes
@@ -94,15 +94,15 @@ third_party_settings:
         - extra_field_oe_theme_content_publication_date
         - oe_departments
         - oe_publication_countries
+      label: ''
       parent_name: group_item_details
+      region: content
       weight: 20
       format_type: oe_theme_helper_field_list_pattern
-      region: content
       format_settings:
-        variant: horizontal
         classes: ''
         id: ''
-      label: ''
+        variant: horizontal
 _core:
   default_config_hash: X3d24L-MRxFy0Fffm1AwiGmI6gwqtIan_DLQcR84dZA
 id: node.oe_publication.full
@@ -111,71 +111,71 @@ bundle: oe_publication
 mode: full
 content:
   extra_field_oe_theme_content_publication_collection:
+    settings: {  }
+    third_party_settings: {  }
     weight: 1
     region: content
+  extra_field_oe_theme_content_publication_date:
     settings: {  }
     third_party_settings: {  }
-  extra_field_oe_theme_content_publication_date:
     weight: 2
     region: content
+  extra_field_oe_theme_content_publication_description:
     settings: {  }
     third_party_settings: {  }
-  extra_field_oe_theme_content_publication_description:
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
   oe_departments:
     type: skos_concept_entity_reference_label
-    weight: 3
-    region: content
     label: above
     settings:
       link: false
     third_party_settings: {  }
+    weight: 3
+    region: content
   oe_documents:
     type: entity_reference_entity_view
-    weight: 1
     label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
+    weight: 1
     region: content
   oe_publication_contacts:
     type: entity_reference_revisions_entity_view
-    weight: 0
-    region: content
     label: hidden
     settings:
       view_mode: full
       link: ''
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_publication_countries:
     type: skos_concept_entity_reference_label
-    weight: 4
-    region: content
     label: above
     settings:
       link: false
     third_party_settings: {  }
+    weight: 4
+    region: content
   oe_publication_publications:
     type: entity_reference_entity_view
-    weight: 2
-    region: content
     label: hidden
     settings:
       view_mode: teaser
       link: false
     third_party_settings: {  }
+    weight: 2
+    region: content
   oe_reference_codes:
     type: string
-    weight: 0
-    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   body: true
   extra_field_oe_theme_helper_short_title_with_fallback: true

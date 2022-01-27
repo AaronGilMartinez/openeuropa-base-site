@@ -19,40 +19,40 @@ bundle: oe_social_media_follow
 mode: default
 content:
   field_oe_social_media_links:
-    weight: 2
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
     type: typed_link
+    weight: 2
     region: content
-  field_oe_social_media_see_more:
-    weight: 3
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
+  field_oe_social_media_see_more:
     type: link_default
+    weight: 3
     region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
   field_oe_social_media_variant:
+    type: options_select
     weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
   field_oe_title:
+    type: string_textfield
     weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   translation:
     weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   created: true
   status: true

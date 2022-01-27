@@ -17,6 +17,6 @@ plugin: oe_multilingual_content_language_switcher
 settings:
   id: oe_multilingual_content_language_switcher
   label: 'OpenEuropa Content Language Switcher'
-  provider: oe_multilingual
   label_display: '0'
+  provider: oe_multilingual
 visibility: {  }

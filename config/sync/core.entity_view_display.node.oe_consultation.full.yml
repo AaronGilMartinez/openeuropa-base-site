@@ -43,131 +43,131 @@ third_party_settings:
         - group_additional_information
         - group_legal_notice
         - group_contacts
+      label: 'Page contents'
       parent_name: ''
+      region: content
       weight: 0
       format_type: oe_theme_helper_in_page_navigation
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Page contents'
+        id: ''
     group_details:
       children:
         - group_details_item
+      label: Details
       parent_name: group_page_contents
+      region: content
       weight: 20
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Details
+        id: ''
     group_details_item:
       children:
         - extra_field_oe_consultation_status
         - oe_consultation_opening_date
         - oe_consultation_deadline
         - oe_departments
+      label: ''
       parent_name: group_details
+      region: content
       weight: 11
       format_type: oe_theme_helper_field_list_pattern
-      region: content
       format_settings:
-        variant: horizontal
         classes: ''
         id: ''
-      label: ''
+        variant: horizontal
     group_target_audience:
       children:
         - oe_consultation_target_audience
+      label: 'Target audience'
       parent_name: group_page_contents
+      region: content
       weight: 21
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Target audience'
+        id: ''
     group_why_we_are_consulting:
       children:
         - oe_consultation_aim
+      label: 'Why we are consulting'
       parent_name: group_page_contents
+      region: content
       weight: 22
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Why we are consulting'
+        id: ''
     group_respond_to_the_consultation:
       children:
         - oe_consultation_guidelines
         - extra_field_oe_consultation_closed_status_text
         - oe_consultation_response_button
+      label: 'Respond to the consultation'
       parent_name: group_page_contents
+      region: content
       weight: 23
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Respond to the consultation'
+        id: ''
     group_consultation_outcome:
       children:
         - oe_consultation_outcome
         - oe_consultation_outcome_files
+      label: 'Consultation outcome'
       parent_name: group_page_contents
+      region: content
       weight: 24
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Consultation outcome'
+        id: ''
     group_additional_information:
       children:
         - oe_consultation_additional_info
+      label: 'Additional information'
       parent_name: group_page_contents
+      region: content
       weight: 26
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Additional information'
+        id: ''
     group_legal_notice:
       children:
         - oe_consultation_legal_info
+      label: 'Legal notice'
       parent_name: group_page_contents
+      region: content
       weight: 27
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Legal notice'
+        id: ''
     group_contacts:
       children:
         - oe_consultation_contacts
+      label: Contact
       parent_name: group_page_contents
+      region: content
       weight: 28
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: Contact
+        id: ''
     group_reference_documents:
       children:
         - oe_consultation_documents
+      label: 'Reference documents'
       parent_name: group_page_contents
+      region: content
       weight: 25
       format_type: oe_theme_helper_in_page_navigation_item
-      region: content
       format_settings:
-        id: ''
         classes: ''
-      label: 'Reference documents'
+        id: ''
 _core:
   default_config_hash: TaB_ZrmCV7SsKKGwtoCN9AXlnvedJ4Q0juxSssaVEXs
 id: node.oe_consultation.full
@@ -176,97 +176,97 @@ bundle: oe_consultation
 mode: full
 content:
   extra_field_oe_consultation_closed_status_text:
+    settings: {  }
+    third_party_settings: {  }
     weight: 4
     region: content
+  extra_field_oe_consultation_status:
     settings: {  }
     third_party_settings: {  }
-  extra_field_oe_consultation_status:
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
   oe_consultation_additional_info:
-    weight: 2
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 2
     region: content
   oe_consultation_aim:
-    weight: 3
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 3
     region: content
   oe_consultation_contacts:
-    weight: 2
+    type: entity_reference_entity_view
     label: hidden
     settings:
       view_mode: full
       link: false
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 2
     region: content
   oe_consultation_deadline:
-    weight: 2
+    type: datetime_default
     label: above
     settings:
       timezone_override: ''
       format_type: oe_consultation_date_with_time_and_timezone
     third_party_settings: {  }
-    type: datetime_default
+    weight: 2
     region: content
   oe_consultation_documents:
     type: entity_reference_revisions_entity_view
-    weight: 0
-    region: content
     label: hidden
     settings:
       view_mode: full
       link: ''
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_consultation_guidelines:
-    weight: 2
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 2
     region: content
   oe_consultation_legal_info:
-    weight: 27
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 27
     region: content
   oe_consultation_opening_date:
-    weight: 1
+    type: datetime_default
     label: above
     settings:
       timezone_override: ''
       format_type: oe_consultation_date
     third_party_settings: {  }
-    type: datetime_default
+    weight: 1
     region: content
   oe_consultation_outcome:
-    weight: 2
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 2
     region: content
   oe_consultation_outcome_files:
     type: entity_reference_entity_view
-    weight: 3
     label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
+    weight: 3
     region: content
   oe_consultation_response_button:
-    weight: 5
+    type: link_separate
     label: hidden
     settings:
       trim_length: 80
@@ -275,22 +275,22 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link_separate
+    weight: 5
     region: content
   oe_consultation_target_audience:
-    weight: 2
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 2
     region: content
   oe_departments:
-    weight: 3
+    type: skos_concept_entity_reference_label
     label: above
     settings:
       link: false
     third_party_settings: {  }
-    type: skos_concept_entity_reference_label
+    weight: 3
     region: content
 hidden:
   extra_field_oe_consultation_label_status: true

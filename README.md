@@ -2,7 +2,7 @@
 
 [![Build Status](https://drone.fpfis.eu/api/badges/token_vendor/subsite-reference/status.svg)](https://drone.fpfis.eu/token_vendor/subsite-reference)
 
-<p>Drupal 8 template for websites hosted in DIGIT.</p>
+<p>Drupal 9 template for websites hosted in DIGIT.</p>
 
 This is an example, feel free to drop it and customize as you need.
 

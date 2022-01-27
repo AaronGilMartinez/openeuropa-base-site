@@ -16,19 +16,19 @@ mode: default
 content:
   name:
     type: string
-    weight: 0
-    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_media_js_asset_url:
     type: oe_media_js_asset_url
-    weight: 1
-    region: content
     label: above
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   created: true
   langcode: true

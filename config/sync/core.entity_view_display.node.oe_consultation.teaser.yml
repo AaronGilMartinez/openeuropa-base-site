@@ -32,13 +32,13 @@ third_party_settings:
       children:
         - oe_consultation_opening_date
         - oe_consultation_deadline
+      label: Details
       parent_name: ''
+      region: content
       weight: 2
       format_type: oe_theme_helper_field_list_pattern
-      region: content
       format_settings:
         variant: horizontal
-      label: Details
 _core:
   default_config_hash: jKawy-jWEO5jdRzi-vQGN6GSUHCGf7L9oswP77vcets
 id: node.oe_consultation.teaser
@@ -47,32 +47,32 @@ bundle: oe_consultation
 mode: teaser
 content:
   extra_field_oe_consultation_label_status:
+    settings: {  }
+    third_party_settings: {  }
     weight: 1
     region: content
+  extra_field_oe_theme_helper_short_title_with_fallback:
     settings: {  }
     third_party_settings: {  }
-  extra_field_oe_theme_helper_short_title_with_fallback:
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
   oe_consultation_deadline:
-    weight: 5
+    type: datetime_default
     label: hidden
     settings:
       timezone_override: ''
       format_type: oe_consultation_date_with_time_and_timezone
     third_party_settings: {  }
-    type: datetime_default
+    weight: 5
     region: content
   oe_consultation_opening_date:
-    weight: 4
+    type: datetime_default
     label: hidden
     settings:
       timezone_override: ''
       format_type: oe_consultation_date
     third_party_settings: {  }
-    type: datetime_default
+    weight: 4
     region: content
 hidden:
   extra_field_oe_consultation_closed_status_text: true

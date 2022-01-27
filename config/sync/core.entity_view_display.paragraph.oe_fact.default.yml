@@ -18,34 +18,34 @@ bundle: oe_fact
 mode: default
 content:
   field_oe_icon:
-    weight: 1
+    type: list_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    weight: 1
     region: content
   field_oe_plain_text_long:
-    weight: 2
+    type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    weight: 2
     region: content
   field_oe_subtitle:
-    weight: 3
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 3
     region: content
   field_oe_title:
-    weight: 0
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 0
     region: content
 hidden:
   search_api_excerpt: true

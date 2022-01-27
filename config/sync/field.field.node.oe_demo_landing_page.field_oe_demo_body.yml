@@ -41,7 +41,6 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       oe_rich_text: oe_rich_text
       oe_links_block: oe_links_block
@@ -62,68 +61,69 @@ settings:
       oe_social_feed: oe_social_feed
       oe_iframe_media: oe_iframe_media
       oe_contact: oe_contact
+    negate: 0
     target_bundles_drag_drop:
       oe_accordion:
-        enabled: true
         weight: 4
+        enabled: true
       oe_accordion_item:
         weight: 7
         enabled: false
       oe_banner:
-        enabled: true
         weight: 15
+        enabled: true
       oe_chart:
-        enabled: true
         weight: 25
+        enabled: true
       oe_contact:
-        enabled: true
         weight: 36
+        enabled: true
       oe_content_row:
-        enabled: true
         weight: 11
+        enabled: true
       oe_contextual_navigation:
-        enabled: true
         weight: 13
-      oe_description_list:
         enabled: true
+      oe_description_list:
         weight: 20
+        enabled: true
       oe_fact:
         weight: 22
         enabled: false
       oe_facts_figures:
-        enabled: true
         weight: 14
+        enabled: true
       oe_iframe_media:
-        enabled: true
         weight: 30
+        enabled: true
       oe_links_block:
-        enabled: true
         weight: 3
+        enabled: true
       oe_list_item:
-        enabled: true
         weight: 10
+        enabled: true
       oe_list_item_block:
-        enabled: true
         weight: 12
+        enabled: true
       oe_map:
-        enabled: true
         weight: 25
+        enabled: true
       oe_quote:
-        enabled: true
         weight: 9
+        enabled: true
       oe_rich_text:
-        enabled: true
         weight: 2
+        enabled: true
       oe_social_feed:
-        enabled: true
         weight: 29
+        enabled: true
       oe_social_media_follow:
-        enabled: true
         weight: 20
+        enabled: true
       oe_text_feature_media:
-        enabled: true
         weight: 21
-      oe_timeline:
         enabled: true
+      oe_timeline:
         weight: 24
+        enabled: true
 field_type: entity_reference_revisions

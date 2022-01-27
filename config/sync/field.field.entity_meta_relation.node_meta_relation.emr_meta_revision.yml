@@ -23,10 +23,10 @@ default_value_callback: ''
 settings:
   handler: 'default:entity_meta'
   handler_settings:
+    target_bundles:
+      - oe_list_page
     sort:
       field: _none
     auto_create: false
     auto_create_bundle: ''
-    target_bundles:
-      - oe_list_page
 field_type: entity_reference_revisions

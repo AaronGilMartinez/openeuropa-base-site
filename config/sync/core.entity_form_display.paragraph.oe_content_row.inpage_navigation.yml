@@ -17,7 +17,9 @@ bundle: oe_content_row
 mode: inpage_navigation
 content:
   field_oe_paragraphs:
+    type: oe_paragraphs_variants
     weight: 1
+    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -33,8 +35,6 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
-    type: oe_paragraphs_variants
-    region: content
   field_oe_title:
     type: string_textfield
     weight: 0

@@ -30,11 +30,13 @@ toolkit:
     build:
         dist:
             commands:
+                - { task: "run", command: "oe_bootstrap_theme:build-themes-dist" }
                 - { task: copy, from: lib/modules, to: 'dist/${drupal.root}/modules/custom' }
                 - { task: copy, from: lib/themes, to: 'dist/${drupal.root}/themes/custom' }
                 - { task: copy, from: lib/profiles, to: 'dist/${drupal.root}/profiles/custom' }
         dev:
             commands:
+                - { task: "run", command: "oe_bootstrap_theme:build-themes-dist" }
                 - { task: "symlink", from: "../../lib/modules", to: "${drupal.root}/modules/custom" }
                 - { task: "symlink", from: "../../lib/themes", to: "${drupal.root}/themes/custom" }
                 - { task: "symlink", from: "../../lib/profiles", to: "${drupal.root}/profiles/custom" }
@@ -42,3 +44,7 @@ toolkit:
 commands:
   drupal:setup-test:
   - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
+  oe_bootstrap_theme:build-themes-dist:
+  - "${runner.bin_dir}/run oe_bootstrap_theme:npm-run --npm-dir=web/themes/contrib/oe_bootstrap_theme production"
+  - "${runner.bin_dir}/run oe_bootstrap_theme:npm-run --npm-dir=lib/themes/contrib/oe_whitelabel production"
+
